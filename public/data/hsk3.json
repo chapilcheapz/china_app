@@ -1,0 +1,2952 @@
+[
+  {
+    "id": "hsk3_1",
+    "level": "HSK3",
+    "word": "阿姨",
+    "pinyin": "āyí",
+    "hanviet": "",
+    "meaning": "dì, cô (cách gọi người phụ nữ lớn tuổi)",
+    "example": "阿姨非常喜欢我们。",
+    "example_trans": "Dì rất quý chúng ta."
+  },
+  {
+    "id": "hsk3_2",
+    "level": "HSK3",
+    "word": "啊",
+    "pinyin": "a",
+    "hanviet": "",
+    "meaning": "a, à, ơ (trợ từ ngữ khí)",
+    "example": "啊，我忘记了！",
+    "example_trans": "Ồ, tôi quên mất!"
+  },
+  {
+    "id": "hsk3_3",
+    "level": "HSK3",
+    "word": "矮",
+    "pinyin": "ǎi",
+    "hanviet": "",
+    "meaning": "thấp, lùn",
+    "example": "他比我矮。",
+    "example_trans": "Anh ấy thấp hơn tôi."
+  },
+  {
+    "id": "hsk3_4",
+    "level": "HSK3",
+    "word": "爱好",
+    "pinyin": "àihào",
+    "hanviet": "",
+    "meaning": "sở thích",
+    "example": "我的爱好是画画儿。",
+    "example_trans": "Sở thích của tôi là vẽ."
+  },
+  {
+    "id": "hsk3_5",
+    "level": "HSK3",
+    "word": "安静",
+    "pinyin": "ānjìng",
+    "hanviet": "",
+    "meaning": "yên tĩnh",
+    "example": "请保持安静。",
+    "example_trans": "Hãy giữ im lặng."
+  },
+  {
+    "id": "hsk3_6",
+    "level": "HSK3",
+    "word": "把",
+    "pinyin": "bǎ",
+    "hanviet": "",
+    "meaning": "đem, lấy (giới từ)",
+    "example": "把书给我。",
+    "example_trans": "Đưa cuốn sách cho tôi."
+  },
+  {
+    "id": "hsk3_7",
+    "level": "HSK3",
+    "word": "班",
+    "pinyin": "bān",
+    "hanviet": "",
+    "meaning": "lớp, ca (làm việc)",
+    "example": "我们班有二十个学生。",
+    "example_trans": "Lớp chúng tôi có hai mươi học sinh."
+  },
+  {
+    "id": "hsk3_8",
+    "level": "HSK3",
+    "word": "搬",
+    "pinyin": "bān",
+    "hanviet": "",
+    "meaning": "chuyển, dời",
+    "example": "他搬家到北京了。",
+    "example_trans": "Ông ấy chuyển đến Bắc Kinh."
+  },
+  {
+    "id": "hsk3_9",
+    "level": "HSK3",
+    "word": "半",
+    "pinyin": "bàn",
+    "hanviet": "",
+    "meaning": "một nửa",
+    "example": "我们半个小时后见。",
+    "example_trans": "Hẹn gặp lại sau nửa tiếng nữa."
+  },
+  {
+    "id": "hsk3_10",
+    "level": "HSK3",
+    "word": "办法",
+    "pinyin": "bànfǎ",
+    "hanviet": "",
+    "meaning": "biện pháp",
+    "example": "我有一个好办法。",
+    "example_trans": "Tôi có một ý tưởng hay."
+  },
+  {
+    "id": "hsk3_11",
+    "level": "HSK3",
+    "word": "办公室",
+    "pinyin": "bàngōngshì",
+    "hanviet": "",
+    "meaning": "văn phòng",
+    "example": "他在办公室工作。",
+    "example_trans": "Anh ấy làm việc trong văn phòng."
+  },
+  {
+    "id": "hsk3_12",
+    "level": "HSK3",
+    "word": "帮忙",
+    "pinyin": "bāngmáng",
+    "hanviet": "",
+    "meaning": "giúp đỡ (động từ li hợp)",
+    "example": "有你帮忙我就放心了。",
+    "example_trans": "Tôi cảm thấy nhẹ nhõm hơn nhờ sự giúp đỡ của bạn."
+  },
+  {
+    "id": "hsk3_13",
+    "level": "HSK3",
+    "word": "包",
+    "pinyin": "bāo",
+    "hanviet": "",
+    "meaning": "túi, bao",
+    "example": "我的包丢了。",
+    "example_trans": "Tôi bị mất túi."
+  },
+  {
+    "id": "hsk3_14",
+    "level": "HSK3",
+    "word": "饱",
+    "pinyin": "bǎo",
+    "hanviet": "",
+    "meaning": "no",
+    "example": "我吃饱了。",
+    "example_trans": "Tôi no căng bụng rồi."
+  },
+  {
+    "id": "hsk3_15",
+    "level": "HSK3",
+    "word": "北方",
+    "pinyin": "běifāng",
+    "hanviet": "",
+    "meaning": "miền Bắc",
+    "example": "北方的冬天很冷。",
+    "example_trans": "Mùa đông ở phía bắc rất lạnh."
+  },
+  {
+    "id": "hsk3_16",
+    "level": "HSK3",
+    "word": "被",
+    "pinyin": "bèi",
+    "hanviet": "",
+    "meaning": "bị, được (giới từ bị động)",
+    "example": "他被老师表扬了。",
+    "example_trans": "Cậu ấy được thầy giáo khen ngợi."
+  },
+  {
+    "id": "hsk3_17",
+    "level": "HSK3",
+    "word": "比较",
+    "pinyin": "bǐjiào",
+    "hanviet": "",
+    "meaning": "khá, tương đối",
+    "example": "她比较高。",
+    "example_trans": "Cô ấy khá cao."
+  },
+  {
+    "id": "hsk3_18",
+    "level": "HSK3",
+    "word": "比赛",
+    "pinyin": "bǐsài",
+    "hanviet": "",
+    "meaning": "cuộc thi, thi đấu",
+    "example": "他们在参加比赛。",
+    "example_trans": "Họ đang tham gia một cuộc thi."
+  },
+  {
+    "id": "hsk3_19",
+    "level": "HSK3",
+    "word": "必须",
+    "pinyin": "bìxū",
+    "hanviet": "",
+    "meaning": "phải, cần phải",
+    "example": "你必须按时到。",
+    "example_trans": "Bạn phải đến đúng giờ."
+  },
+  {
+    "id": "hsk3_20",
+    "level": "HSK3",
+    "word": "变化",
+    "pinyin": "biànhuà",
+    "hanviet": "",
+    "meaning": "thay đổi",
+    "example": "这里的天气变化很大。",
+    "example_trans": "Thời tiết ở đây rất hay thay đổi."
+  },
+  {
+    "id": "hsk3_21",
+    "level": "HSK3",
+    "word": "表示",
+    "pinyin": "biǎoshì",
+    "hanviet": "",
+    "meaning": "biểu thị, thể hiện",
+    "example": "他表示同意这个计划。",
+    "example_trans": "Ông ấy bày tỏ sự đồng tình với kế hoạch đó."
+  },
+  {
+    "id": "hsk3_22",
+    "level": "HSK3",
+    "word": "表演",
+    "pinyin": "biǎoyǎn",
+    "hanviet": "",
+    "meaning": "biểu diễn",
+    "example": "她在表演节目。",
+    "example_trans": "Cô ấy đang biểu diễn."
+  },
+  {
+    "id": "hsk3_23",
+    "level": "HSK3",
+    "word": "别人",
+    "pinyin": "biérén",
+    "hanviet": "",
+    "meaning": "người khác",
+    "example": "别人的意见很重要。",
+    "example_trans": "Ý kiến ​​của người khác rất quan trọng."
+  },
+  {
+    "id": "hsk3_24",
+    "level": "HSK3",
+    "word": "宾馆",
+    "pinyin": "bīnguǎn",
+    "hanviet": "",
+    "meaning": "khách sạn",
+    "example": "宾馆的房间很干净。",
+    "example_trans": "Phòng khách sạn rất sạch sẽ."
+  },
+  {
+    "id": "hsk3_25",
+    "level": "HSK3",
+    "word": "冰箱",
+    "pinyin": "bīngxiāng",
+    "hanviet": "",
+    "meaning": "tủ lạnh",
+    "example": "冰箱里有很多食物。",
+    "example_trans": "Trong tủ lạnh có rất nhiều thức ăn."
+  },
+  {
+    "id": "hsk3_26",
+    "level": "HSK3",
+    "word": "才",
+    "pinyin": "cái",
+    "hanviet": "",
+    "meaning": "mới (nhấn mạnh thời gian muộn, trễ)",
+    "example": "为什么你现在才来。",
+    "example_trans": "Sao giờ bạn mới đến?"
+  },
+  {
+    "id": "hsk3_27",
+    "level": "HSK3",
+    "word": "菜单",
+    "pinyin": "càidān",
+    "hanviet": "",
+    "meaning": "thực đơn",
+    "example": "菜单上有很多菜。",
+    "example_trans": "Thực đơn có rất nhiều món."
+  },
+  {
+    "id": "hsk3_28",
+    "level": "HSK3",
+    "word": "参加",
+    "pinyin": "cānjiā",
+    "hanviet": "",
+    "meaning": "tham gia",
+    "example": "我参加了这个活动。",
+    "example_trans": "Tôi đã tham gia sự kiện này."
+  },
+  {
+    "id": "hsk3_29",
+    "level": "HSK3",
+    "word": "草",
+    "pinyin": "cǎo",
+    "hanviet": "",
+    "meaning": "cỏ",
+    "example": "草地上有很多花。",
+    "example_trans": "Trên bãi cỏ có rất nhiều hoa."
+  },
+  {
+    "id": "hsk3_30",
+    "level": "HSK3",
+    "word": "层",
+    "pinyin": "céng",
+    "hanviet": "",
+    "meaning": "tầng",
+    "example": "我住在三层。",
+    "example_trans": "Tôi sống ở tầng ba."
+  },
+  {
+    "id": "hsk3_31",
+    "level": "HSK3",
+    "word": "差",
+    "pinyin": "chà",
+    "hanviet": "",
+    "meaning": "kém, thiếu, tệ",
+    "example": "今天的天气很差。",
+    "example_trans": "Thời tiết hôm nay thật tệ."
+  },
+  {
+    "id": "hsk3_32",
+    "level": "HSK3",
+    "word": "超市",
+    "pinyin": "chāoshì",
+    "hanviet": "",
+    "meaning": "siêu thị",
+    "example": "我去超市买东西。",
+    "example_trans": "Tôi đã đến siêu thị để mua đồ."
+  },
+  {
+    "id": "hsk3_33",
+    "level": "HSK3",
+    "word": "衬衫",
+    "pinyin": "chènshān",
+    "hanviet": "",
+    "meaning": "áo sơ mi",
+    "example": "他穿了一件白衬衫。",
+    "example_trans": "Anh ấy mặc một chiếc áo sơ mi trắng."
+  },
+  {
+    "id": "hsk3_34",
+    "level": "HSK3",
+    "word": "成绩",
+    "pinyin": "chéngjì",
+    "hanviet": "",
+    "meaning": "thành tích",
+    "example": "他的成绩很好。",
+    "example_trans": "Điểm số của cậu ấy rất tốt."
+  },
+  {
+    "id": "hsk3_35",
+    "level": "HSK3",
+    "word": "城市",
+    "pinyin": "chéngshì",
+    "hanviet": "",
+    "meaning": "thành phố",
+    "example": "这座城市很大。",
+    "example_trans": "Thành phố này rất lớn."
+  },
+  {
+    "id": "hsk3_36",
+    "level": "HSK3",
+    "word": "迟到",
+    "pinyin": "chídào",
+    "hanviet": "",
+    "meaning": "đến trễ",
+    "example": "他今天迟到了。",
+    "example_trans": "Hôm nay anh ấy đến muộn."
+  },
+  {
+    "id": "hsk3_37",
+    "level": "HSK3",
+    "word": "出现",
+    "pinyin": "chūxiàn",
+    "hanviet": "",
+    "meaning": "xuất hiện",
+    "example": "我们出现了问题。",
+    "example_trans": "Chúng tôi đã gặp phải một vấn đề."
+  },
+  {
+    "id": "hsk3_38",
+    "level": "HSK3",
+    "word": "厨房",
+    "pinyin": "chúfáng",
+    "hanviet": "",
+    "meaning": "nhà bếp",
+    "example": "厨房很干净。",
+    "example_trans": "Nhà bếp rất sạch sẽ."
+  },
+  {
+    "id": "hsk3_39",
+    "level": "HSK3",
+    "word": "除了",
+    "pinyin": "chúle",
+    "hanviet": "",
+    "meaning": "ngoài ra, trừ ra",
+    "example": "除了他，大家都来了。",
+    "example_trans": "Mọi người khác đều đến trừ anh ấy."
+  },
+  {
+    "id": "hsk3_40",
+    "level": "HSK3",
+    "word": "春",
+    "pinyin": "chūn",
+    "hanviet": "",
+    "meaning": "mùa xuân",
+    "example": "春天来了，花开了。",
+    "example_trans": "Mùa xuân đã đến, và hoa đang nở rộ."
+  },
+  {
+    "id": "hsk3_41",
+    "level": "HSK3",
+    "word": "词语",
+    "pinyin": "cíyǔ",
+    "hanviet": "",
+    "meaning": "từ ngữ",
+    "example": "我喜欢学习新词语。",
+    "example_trans": "Tôi thích học từ mới."
+  },
+  {
+    "id": "hsk3_42",
+    "level": "HSK3",
+    "word": "聪明",
+    "pinyin": "cōngmíng",
+    "hanviet": "",
+    "meaning": "thông minh",
+    "example": "她很聪明，总是知道答案。",
+    "example_trans": "Cô ấy rất thông minh và luôn biết câu trả lời."
+  },
+  {
+    "id": "hsk3_43",
+    "level": "HSK3",
+    "word": "打扫",
+    "pinyin": "dǎsǎo",
+    "hanviet": "",
+    "meaning": "quét dọn",
+    "example": "我们一起打扫房间吧。",
+    "example_trans": "Chúng ta cùng nhau dọn dẹp phòng nhé."
+  },
+  {
+    "id": "hsk3_44",
+    "level": "HSK3",
+    "word": "打算",
+    "pinyin": "dǎsuàn",
+    "hanviet": "",
+    "meaning": "dự định",
+    "example": "我打算去旅游。",
+    "example_trans": "Tôi đang lên kế hoạch đi du lịch."
+  },
+  {
+    "id": "hsk3_45",
+    "level": "HSK3",
+    "word": "带",
+    "pinyin": "dài",
+    "hanviet": "",
+    "meaning": "mang theo, dẫn theo",
+    "example": "别忘了带雨伞。",
+    "example_trans": "Đừng quên mang theo ô."
+  },
+  {
+    "id": "hsk3_46",
+    "level": "HSK3",
+    "word": "担心",
+    "pinyin": "dānxīn",
+    "hanviet": "",
+    "meaning": "lo lắng",
+    "example": "我担心他的健康。",
+    "example_trans": "Tôi lo lắng cho sức khỏe của anh ấy."
+  },
+  {
+    "id": "hsk3_47",
+    "level": "HSK3",
+    "word": "蛋糕",
+    "pinyin": "dàngāo",
+    "hanviet": "",
+    "meaning": "bánh ngọt",
+    "example": "生日快乐，给你蛋糕。",
+    "example_trans": "Chúc mừng sinh nhật, đây là bánh kem dành cho bạn."
+  },
+  {
+    "id": "hsk3_48",
+    "level": "HSK3",
+    "word": "当然",
+    "pinyin": "dāngrán",
+    "hanviet": "",
+    "meaning": "đương nhiên",
+    "example": "你当然可以去。",
+    "example_trans": "Dĩ nhiên bạn có thể đi."
+  },
+  {
+    "id": "hsk3_49",
+    "level": "HSK3",
+    "word": "地",
+    "pinyin": "de",
+    "hanviet": "",
+    "meaning": "trợ từ của động từ",
+    "example": "请慢慢地说。",
+    "example_trans": "Hãy nói chậm rãi."
+  },
+  {
+    "id": "hsk3_50",
+    "level": "HSK3",
+    "word": "灯",
+    "pinyin": "dēng",
+    "hanviet": "",
+    "meaning": "đèn",
+    "example": "请开灯。",
+    "example_trans": "Vui lòng bật đèn lên."
+  },
+  {
+    "id": "hsk3_51",
+    "level": "HSK3",
+    "word": "低",
+    "pinyin": "dī",
+    "hanviet": "",
+    "meaning": "thấp",
+    "example": "他的声音很低。",
+    "example_trans": "Giọng anh ấy rất nhỏ."
+  },
+  {
+    "id": "hsk3_52",
+    "level": "HSK3",
+    "word": "地方",
+    "pinyin": "dìfāng",
+    "hanviet": "",
+    "meaning": "nơi, chỗ",
+    "example": "这个地方很好玩。",
+    "example_trans": "Nơi này rất thú vị."
+  },
+  {
+    "id": "hsk3_53",
+    "level": "HSK3",
+    "word": "地铁",
+    "pinyin": "dìtiě",
+    "hanviet": "",
+    "meaning": "tàu điện ngầm",
+    "example": "我坐地铁去上班。",
+    "example_trans": "Tôi đi tàu điện ngầm đến chỗ làm."
+  },
+  {
+    "id": "hsk3_54",
+    "level": "HSK3",
+    "word": "地图",
+    "pinyin": "dìtú",
+    "hanviet": "",
+    "meaning": "bản đồ",
+    "example": "你有这座城市的地图吗？",
+    "example_trans": "Bạn có bản đồ thành phố này không?"
+  },
+  {
+    "id": "hsk3_55",
+    "level": "HSK3",
+    "word": "电梯",
+    "pinyin": "diàntī",
+    "hanviet": "",
+    "meaning": "thang máy",
+    "example": "我们坐电梯上楼。",
+    "example_trans": "Chúng tôi đi thang máy lên tầng trên."
+  },
+  {
+    "id": "hsk3_56",
+    "level": "HSK3",
+    "word": "电子邮箱",
+    "pinyin": "diànzǐ yóuxiāng",
+    "hanviet": "",
+    "meaning": "hộp thư điện tử (email)",
+    "example": "请发电子邮件给我。",
+    "example_trans": "Vui lòng gửi email cho tôi."
+  },
+  {
+    "id": "hsk3_57",
+    "level": "HSK3",
+    "word": "东",
+    "pinyin": "dōng",
+    "hanviet": "",
+    "meaning": "đông (hướng đông)",
+    "example": "东边有一座山。",
+    "example_trans": "Có một ngọn núi ở phía đông."
+  },
+  {
+    "id": "hsk3_58",
+    "level": "HSK3",
+    "word": "冬",
+    "pinyin": "dōng",
+    "hanviet": "",
+    "meaning": "mùa đông",
+    "example": "冬天很冷。",
+    "example_trans": "Mùa đông rất lạnh."
+  },
+  {
+    "id": "hsk3_59",
+    "level": "HSK3",
+    "word": "动物",
+    "pinyin": "dòngwù",
+    "hanviet": "",
+    "meaning": "động vật",
+    "example": "我喜欢动物。",
+    "example_trans": "Tôi thích động vật."
+  },
+  {
+    "id": "hsk3_60",
+    "level": "HSK3",
+    "word": "短",
+    "pinyin": "duǎn",
+    "hanviet": "",
+    "meaning": "ngắn",
+    "example": "这条裙子太短了。",
+    "example_trans": "Chiếc váy này quá ngắn."
+  },
+  {
+    "id": "hsk3_61",
+    "level": "HSK3",
+    "word": "段",
+    "pinyin": "duàn",
+    "hanviet": "",
+    "meaning": "đoạn, quãng",
+    "example": "他讲了一段故事。",
+    "example_trans": "Anh ấy kể một câu chuyện."
+  },
+  {
+    "id": "hsk3_62",
+    "level": "HSK3",
+    "word": "锻炼",
+    "pinyin": "duànliàn",
+    "hanviet": "",
+    "meaning": "luyện tập, rèn luyện",
+    "example": "我每天锻炼身体。",
+    "example_trans": "Tôi tập thể dục mỗi ngày."
+  },
+  {
+    "id": "hsk3_63",
+    "level": "HSK3",
+    "word": "多么",
+    "pinyin": "duōme",
+    "hanviet": "",
+    "meaning": "bao nhiêu, biết bao",
+    "example": "这里的景色多么美丽。",
+    "example_trans": "Cảnh vật ở đây đẹp quá!"
+  },
+  {
+    "id": "hsk3_64",
+    "level": "HSK3",
+    "word": "饿",
+    "pinyin": "è",
+    "hanviet": "",
+    "meaning": "đói",
+    "example": "我饿了，想吃饭。",
+    "example_trans": "Tôi đói bụng và muốn ăn."
+  },
+  {
+    "id": "hsk3_65",
+    "level": "HSK3",
+    "word": "而且",
+    "pinyin": "érqiě",
+    "hanviet": "",
+    "meaning": "mà còn, hơn nữa",
+    "example": "他聪明而且很努力。",
+    "example_trans": "Anh ấy thông minh và chăm chỉ."
+  },
+  {
+    "id": "hsk3_66",
+    "level": "HSK3",
+    "word": "耳朵",
+    "pinyin": "ěrduo",
+    "hanviet": "",
+    "meaning": "tai",
+    "example": "我的耳朵很敏感。",
+    "example_trans": "Tai tôi rất nhạy cảm."
+  },
+  {
+    "id": "hsk3_67",
+    "level": "HSK3",
+    "word": "发烧",
+    "pinyin": "fāshāo",
+    "hanviet": "",
+    "meaning": "sốt",
+    "example": "他发烧了，要休息。",
+    "example_trans": "Anh ấy bị sốt và cần nghỉ ngơi."
+  },
+  {
+    "id": "hsk3_68",
+    "level": "HSK3",
+    "word": "发现",
+    "pinyin": "fāxiàn",
+    "hanviet": "",
+    "meaning": "phát hiện",
+    "example": "我发现了一个秘密。",
+    "example_trans": "Tôi đã phát hiện ra một bí mật."
+  },
+  {
+    "id": "hsk3_69",
+    "level": "HSK3",
+    "word": "方便",
+    "pinyin": "fāngbiàn",
+    "hanviet": "",
+    "meaning": "thuận tiện",
+    "example": "这里很方便。",
+    "example_trans": "Nơi này rất thuận tiện."
+  },
+  {
+    "id": "hsk3_70",
+    "level": "HSK3",
+    "word": "放",
+    "pinyin": "fàng",
+    "hanviet": "",
+    "meaning": "đặt, để",
+    "example": "请把书放在桌子上。",
+    "example_trans": "Hãy đặt cuốn sách lên bàn."
+  },
+  {
+    "id": "hsk3_71",
+    "level": "HSK3",
+    "word": "放心",
+    "pinyin": "fàngxīn",
+    "hanviet": "",
+    "meaning": "yên tâm",
+    "example": "请你放心。",
+    "example_trans": "Hãy yên tâm."
+  },
+  {
+    "id": "hsk3_72",
+    "level": "HSK3",
+    "word": "分",
+    "pinyin": "fēn",
+    "hanviet": "",
+    "meaning": "phút, phân",
+    "example": "我们八点十分出发。",
+    "example_trans": "Chúng tôi khởi hành lúc 8:10."
+  },
+  {
+    "id": "hsk3_73",
+    "level": "HSK3",
+    "word": "附近",
+    "pinyin": "fùjìn",
+    "hanviet": "",
+    "meaning": "gần đây, vùng lân cận",
+    "example": "我家附近有公园。",
+    "example_trans": "Gần nhà tôi có một công viên."
+  },
+  {
+    "id": "hsk3_74",
+    "level": "HSK3",
+    "word": "复习",
+    "pinyin": "fùxí",
+    "hanviet": "",
+    "meaning": "ôn tập",
+    "example": "我需要复习功课。",
+    "example_trans": "Tôi cần ôn lại bài học."
+  },
+  {
+    "id": "hsk3_75",
+    "level": "HSK3",
+    "word": "干净",
+    "pinyin": "gānjìng",
+    "hanviet": "",
+    "meaning": "sạch sẽ",
+    "example": "房间很干净。",
+    "example_trans": "Phòng rất sạch sẽ."
+  },
+  {
+    "id": "hsk3_76",
+    "level": "HSK3",
+    "word": "敢",
+    "pinyin": "gǎn",
+    "hanviet": "",
+    "meaning": "dám",
+    "example": "我敢说你是对的。",
+    "example_trans": "Tôi dám chắc là bạn nói đúng."
+  },
+  {
+    "id": "hsk3_77",
+    "level": "HSK3",
+    "word": "感冒",
+    "pinyin": "gǎnmào",
+    "hanviet": "",
+    "meaning": "cảm mạo, cảm lạnh",
+    "example": "他感冒了，不能来。",
+    "example_trans": "Anh ấy bị cảm lạnh và không thể đến."
+  },
+  {
+    "id": "hsk3_78",
+    "level": "HSK3",
+    "word": "刚才",
+    "pinyin": "gāngcái",
+    "hanviet": "",
+    "meaning": "vừa mới",
+    "example": "刚才我看见他了。",
+    "example_trans": "Tôi vừa mới gặp anh ấy."
+  },
+  {
+    "id": "hsk3_79",
+    "level": "HSK3",
+    "word": "跟",
+    "pinyin": "gēn",
+    "hanviet": "",
+    "meaning": "cùng với",
+    "example": "我跟他一起去。",
+    "example_trans": "Tôi đã đi cùng anh ấy."
+  },
+  {
+    "id": "hsk3_80",
+    "level": "HSK3",
+    "word": "根据",
+    "pinyin": "gēnjù",
+    "hanviet": "",
+    "meaning": "căn cứ vào",
+    "example": "根据天气预报，今天会下雨。",
+    "example_trans": "Theo dự báo thời tiết, hôm nay trời sẽ mưa."
+  },
+  {
+    "id": "hsk3_81",
+    "level": "HSK3",
+    "word": "更",
+    "pinyin": "gèng",
+    "hanviet": "",
+    "meaning": "hơn, càng",
+    "example": "她比我更高。",
+    "example_trans": "Cô ấy cao hơn tôi."
+  },
+  {
+    "id": "hsk3_82",
+    "level": "HSK3",
+    "word": "公园",
+    "pinyin": "gōngyuán",
+    "hanviet": "",
+    "meaning": "công viên",
+    "example": "我喜欢去公园散步。",
+    "example_trans": "Tôi thích đi dạo trong công viên."
+  },
+  {
+    "id": "hsk3_83",
+    "level": "HSK3",
+    "word": "故事",
+    "pinyin": "gùshì",
+    "hanviet": "",
+    "meaning": "câu chuyện",
+    "example": "这个故事很有趣。",
+    "example_trans": "Câu chuyện này rất thú vị."
+  },
+  {
+    "id": "hsk3_84",
+    "level": "HSK3",
+    "word": "刮风",
+    "pinyin": "guā fēng",
+    "hanviet": "",
+    "meaning": "gió thổi",
+    "example": "今天刮风了。",
+    "example_trans": "Hôm nay trời nhiều gió."
+  },
+  {
+    "id": "hsk3_85",
+    "level": "HSK3",
+    "word": "关",
+    "pinyin": "guān",
+    "hanviet": "",
+    "meaning": "đóng, tắt",
+    "example": "请关门。",
+    "example_trans": "Hãy đóng cửa lại."
+  },
+  {
+    "id": "hsk3_86",
+    "level": "HSK3",
+    "word": "关系",
+    "pinyin": "guānxì",
+    "hanviet": "",
+    "meaning": "quan hệ",
+    "example": "我们是好朋友，关系很好。",
+    "example_trans": "Chúng tôi là bạn tốt và có mối quan hệ rất tốt."
+  },
+  {
+    "id": "hsk3_87",
+    "level": "HSK3",
+    "word": "关心",
+    "pinyin": "guānxīn",
+    "hanviet": "",
+    "meaning": "quan tâm",
+    "example": "她很关心我。",
+    "example_trans": "Cô ấy rất quan tâm đến tôi."
+  },
+  {
+    "id": "hsk3_88",
+    "level": "HSK3",
+    "word": "关于",
+    "pinyin": "guānyú",
+    "hanviet": "",
+    "meaning": "về (liên quan đến)",
+    "example": "这是关于旅行的书。",
+    "example_trans": "Đây là một cuốn sách về du lịch."
+  },
+  {
+    "id": "hsk3_89",
+    "level": "HSK3",
+    "word": "国家",
+    "pinyin": "guójiā",
+    "hanviet": "",
+    "meaning": "quốc gia",
+    "example": "我爱我的国家。",
+    "example_trans": "Tôi yêu đất nước mình."
+  },
+  {
+    "id": "hsk3_90",
+    "level": "HSK3",
+    "word": "果汁",
+    "pinyin": "guǒzhī",
+    "hanviet": "",
+    "meaning": "nước ép trái cây",
+    "example": "请给我一杯果汁。",
+    "example_trans": "Làm ơn cho tôi một ly nước ép."
+  },
+  {
+    "id": "hsk3_91",
+    "level": "HSK3",
+    "word": "过去",
+    "pinyin": "guòqù",
+    "hanviet": "",
+    "meaning": "quá khứ",
+    "example": "我们过去是同学。",
+    "example_trans": "Chúng tôi từng là bạn cùng lớp."
+  },
+  {
+    "id": "hsk3_92",
+    "level": "HSK3",
+    "word": "还是",
+    "pinyin": "háishì",
+    "hanviet": "",
+    "meaning": "vẫn còn, hay là",
+    "example": "你还是学生吗？",
+    "example_trans": "Bạn vẫn còn là sinh viên chứ?"
+  },
+  {
+    "id": "hsk3_93",
+    "level": "HSK3",
+    "word": "害怕",
+    "pinyin": "hàipà",
+    "hanviet": "",
+    "meaning": "sợ",
+    "example": "我害怕黑暗。",
+    "example_trans": "Tôi sợ bóng tối."
+  },
+  {
+    "id": "hsk3_94",
+    "level": "HSK3",
+    "word": "河",
+    "pinyin": "hé",
+    "hanviet": "",
+    "meaning": "sông",
+    "example": "河边有很多花。",
+    "example_trans": "Dọc bờ sông có rất nhiều hoa."
+  },
+  {
+    "id": "hsk3_95",
+    "level": "HSK3",
+    "word": "黑板",
+    "pinyin": "hēibǎn",
+    "hanviet": "",
+    "meaning": "bảng",
+    "example": "请在黑板上写字。",
+    "example_trans": "Hãy viết lên bảng."
+  },
+  {
+    "id": "hsk3_96",
+    "level": "HSK3",
+    "word": "护照",
+    "pinyin": "hùzhào",
+    "hanviet": "",
+    "meaning": "hộ chiếu",
+    "example": "我需要护照去旅行。",
+    "example_trans": "Tôi cần hộ chiếu để đi du lịch."
+  },
+  {
+    "id": "hsk3_97",
+    "level": "HSK3",
+    "word": "花",
+    "pinyin": "huā",
+    "hanviet": "",
+    "meaning": "hoa, tiêu (tiền, thời gian)",
+    "example": "这里的花开得很美。",
+    "example_trans": "Hoa ở đây đang nở rộ rất đẹp."
+  },
+  {
+    "id": "hsk3_98",
+    "level": "HSK3",
+    "word": "花园",
+    "pinyin": "huāyuán",
+    "hanviet": "",
+    "meaning": "vườn hoa",
+    "example": "我们在花园里玩。",
+    "example_trans": "Chúng tôi chơi trong vườn."
+  },
+  {
+    "id": "hsk3_99",
+    "level": "HSK3",
+    "word": "画",
+    "pinyin": "huà",
+    "hanviet": "",
+    "meaning": "vẽ, tranh",
+    "example": "他喜欢画画儿。",
+    "example_trans": "Anh ấy thích vẽ."
+  },
+  {
+    "id": "hsk3_100",
+    "level": "HSK3",
+    "word": "坏",
+    "pinyin": "huài",
+    "hanviet": "",
+    "meaning": "hỏng, xấu",
+    "example": "我的手机坏了。",
+    "example_trans": "Điện thoại của tôi bị hỏng rồi."
+  },
+  {
+    "id": "hsk3_101",
+    "level": "HSK3",
+    "word": "还",
+    "pinyin": "huán",
+    "hanviet": "",
+    "meaning": "trả lại, hoàn",
+    "example": "你什么时候把钱还给我?",
+    "example_trans": "Khi nào bạn sẽ trả lại tiền cho tôi?"
+  },
+  {
+    "id": "hsk3_102",
+    "level": "HSK3",
+    "word": "环境",
+    "pinyin": "huánjìng",
+    "hanviet": "",
+    "meaning": "môi trường",
+    "example": "我喜欢安静的环境。",
+    "example_trans": "Tôi thích những nơi yên tĩnh."
+  },
+  {
+    "id": "hsk3_103",
+    "level": "HSK3",
+    "word": "换",
+    "pinyin": "huàn",
+    "hanviet": "",
+    "meaning": "đổi",
+    "example": "我想换工作。",
+    "example_trans": "Tôi muốn đổi việc."
+  },
+  {
+    "id": "hsk3_104",
+    "level": "HSK3",
+    "word": "黄",
+    "pinyin": "huáng",
+    "hanviet": "",
+    "meaning": "màu vàng",
+    "example": "这条裙子是黄色的。",
+    "example_trans": "Chiếc váy này màu vàng."
+  },
+  {
+    "id": "hsk3_105",
+    "level": "HSK3",
+    "word": "会议",
+    "pinyin": "huìyì",
+    "hanviet": "",
+    "meaning": "hội nghị, cuộc họp",
+    "example": "会议将在下午三点开始。",
+    "example_trans": "Cuộc họp sẽ bắt đầu lúc 3 giờ chiều."
+  },
+  {
+    "id": "hsk3_106",
+    "level": "HSK3",
+    "word": "或者",
+    "pinyin": "huòzhě",
+    "hanviet": "",
+    "meaning": "hoặc là",
+    "example": "你可以选择苹果或者香蕉。",
+    "example_trans": "Bạn có thể chọn một quả táo hoặc một quả chuối."
+  },
+  {
+    "id": "hsk3_107",
+    "level": "HSK3",
+    "word": "机会",
+    "pinyin": "jīhuì",
+    "hanviet": "",
+    "meaning": "cơ hội",
+    "example": "这是一个好机会。",
+    "example_trans": "Đây là một cơ hội tốt."
+  },
+  {
+    "id": "hsk3_108",
+    "level": "HSK3",
+    "word": "几乎",
+    "pinyin": "jīhū",
+    "hanviet": "",
+    "meaning": "hầu như, gần như",
+    "example": "他几乎每天都锻炼。",
+    "example_trans": "Anh ấy tập thể dục gần như mỗi ngày."
+  },
+  {
+    "id": "hsk3_109",
+    "level": "HSK3",
+    "word": "极",
+    "pinyin": "jí",
+    "hanviet": "",
+    "meaning": "cực kỳ",
+    "example": "这个菜的味道好极了。",
+    "example_trans": "Món này ngon tuyệt."
+  },
+  {
+    "id": "hsk3_110",
+    "level": "HSK3",
+    "word": "记得",
+    "pinyin": "jìdé",
+    "hanviet": "",
+    "meaning": "nhớ, nhớ đến",
+    "example": "请记得带钥匙。",
+    "example_trans": "Vui lòng nhớ mang theo chìa khóa."
+  },
+  {
+    "id": "hsk3_111",
+    "level": "HSK3",
+    "word": "季节",
+    "pinyin": "jìjié",
+    "hanviet": "",
+    "meaning": "mùa",
+    "example": "我最喜欢的季节是春天。",
+    "example_trans": "Mùa yêu thích của tôi là mùa xuân."
+  },
+  {
+    "id": "hsk3_112",
+    "level": "HSK3",
+    "word": "检查",
+    "pinyin": "jiǎnchá",
+    "hanviet": "",
+    "meaning": "kiểm tra",
+    "example": "老师检查了我们的作业。",
+    "example_trans": "Cô giáo đã kiểm tra bài tập về nhà của chúng tôi."
+  },
+  {
+    "id": "hsk3_113",
+    "level": "HSK3",
+    "word": "简单",
+    "pinyin": "jiǎndān",
+    "hanviet": "",
+    "meaning": "đơn giản",
+    "example": "这个问题很简单。",
+    "example_trans": "Đây là một vấn đề rất đơn giản."
+  },
+  {
+    "id": "hsk3_114",
+    "level": "HSK3",
+    "word": "健康",
+    "pinyin": "jiànkāng",
+    "hanviet": "",
+    "meaning": "khỏe mạnh",
+    "example": "健康比什么都重要。",
+    "example_trans": "Sức khỏe quan trọng hơn bất cứ điều gì khác."
+  },
+  {
+    "id": "hsk3_115",
+    "level": "HSK3",
+    "word": "见面",
+    "pinyin": "jiànmiàn",
+    "hanviet": "",
+    "meaning": "gặp mặt",
+    "example": "我们明天见面吧。",
+    "example_trans": "Hẹn gặp nhau ngày mai."
+  },
+  {
+    "id": "hsk3_116",
+    "level": "HSK3",
+    "word": "讲",
+    "pinyin": "jiǎng",
+    "hanviet": "",
+    "meaning": "nói, giảng",
+    "example": "他喜欢讲故事。",
+    "example_trans": "Anh ấy thích kể chuyện."
+  },
+  {
+    "id": "hsk3_117",
+    "level": "HSK3",
+    "word": "教",
+    "pinyin": "jiāo",
+    "hanviet": "",
+    "meaning": "dạy",
+    "example": "他教我们汉语。",
+    "example_trans": "Ông ấy dạy chúng tôi tiếng Trung Quốc."
+  },
+  {
+    "id": "hsk3_118",
+    "level": "HSK3",
+    "word": "角",
+    "pinyin": "jiǎo",
+    "hanviet": "",
+    "meaning": "góc",
+    "example": "猫在桌子的角落里。",
+    "example_trans": "Con mèo đang ở góc bàn."
+  },
+  {
+    "id": "hsk3_119",
+    "level": "HSK3",
+    "word": "脚",
+    "pinyin": "jiǎo",
+    "hanviet": "",
+    "meaning": "chân",
+    "example": "我的脚很疼。",
+    "example_trans": "Chân tôi đau lắm."
+  },
+  {
+    "id": "hsk3_120",
+    "level": "HSK3",
+    "word": "接",
+    "pinyin": "jiē",
+    "hanviet": "",
+    "meaning": "nhận, tiếp",
+    "example": "请接电话。",
+    "example_trans": "Hãy nghe điện thoại."
+  },
+  {
+    "id": "hsk3_121",
+    "level": "HSK3",
+    "word": "街道",
+    "pinyin": "jiēdào",
+    "hanviet": "",
+    "meaning": "đường phố",
+    "example": "这条街道很宽。",
+    "example_trans": "Con phố này rất rộng."
+  },
+  {
+    "id": "hsk3_122",
+    "level": "HSK3",
+    "word": "结婚",
+    "pinyin": "jiéhūn",
+    "hanviet": "",
+    "meaning": "kết hôn",
+    "example": "他们结婚了。",
+    "example_trans": "Họ đã kết hôn."
+  },
+  {
+    "id": "hsk3_123",
+    "level": "HSK3",
+    "word": "结束",
+    "pinyin": "jiéshù",
+    "hanviet": "",
+    "meaning": "kết thúc",
+    "example": "会议结束了。",
+    "example_trans": "Cuộc họp đã kết thúc."
+  },
+  {
+    "id": "hsk3_124",
+    "level": "HSK3",
+    "word": "节目",
+    "pinyin": "jiémù",
+    "hanviet": "",
+    "meaning": "chương trình",
+    "example": "我喜欢这个节目。",
+    "example_trans": "Tôi thích chương trình này."
+  },
+  {
+    "id": "hsk3_125",
+    "level": "HSK3",
+    "word": "节日",
+    "pinyin": "jiérì",
+    "hanviet": "",
+    "meaning": "ngày lễ",
+    "example": "春节是中国的传统节日。",
+    "example_trans": "Tết Nguyên Đán là một lễ hội truyền thống của Trung Quốc."
+  },
+  {
+    "id": "hsk3_126",
+    "level": "HSK3",
+    "word": "解决",
+    "pinyin": "jiějué",
+    "hanviet": "",
+    "meaning": "giải quyết",
+    "example": "我们需要解决这个问题。",
+    "example_trans": "Chúng ta cần giải quyết vấn đề này."
+  },
+  {
+    "id": "hsk3_127",
+    "level": "HSK3",
+    "word": "借",
+    "pinyin": "jiè",
+    "hanviet": "",
+    "meaning": "mượn",
+    "example": "我可以借你的书吗？",
+    "example_trans": "Tôi có thể mượn cuốn sách của bạn được không?"
+  },
+  {
+    "id": "hsk3_128",
+    "level": "HSK3",
+    "word": "经常",
+    "pinyin": "jīngcháng",
+    "hanviet": "",
+    "meaning": "thường xuyên",
+    "example": "我经常去图书馆。",
+    "example_trans": "Tôi thường xuyên đến thư viện."
+  },
+  {
+    "id": "hsk3_129",
+    "level": "HSK3",
+    "word": "经过",
+    "pinyin": "jīngguò",
+    "hanviet": "",
+    "meaning": "trải qua",
+    "example": "他经过我家门口。",
+    "example_trans": "Anh ấy đã đi ngang qua nhà tôi."
+  },
+  {
+    "id": "hsk3_130",
+    "level": "HSK3",
+    "word": "经历",
+    "pinyin": "jīnglì",
+    "hanviet": "",
+    "meaning": "từng, trải nghiệm, từng trải",
+    "example": "这是一段难忘的经历。",
+    "example_trans": "Đây là một trải nghiệm không thể nào quên."
+  },
+  {
+    "id": "hsk3_131",
+    "level": "HSK3",
+    "word": "久",
+    "pinyin": "jiǔ",
+    "hanviet": "",
+    "meaning": "lâu",
+    "example": "我等了很久。",
+    "example_trans": "Tôi đã chờ rất lâu."
+  },
+  {
+    "id": "hsk3_132",
+    "level": "HSK3",
+    "word": "旧",
+    "pinyin": "jiù",
+    "hanviet": "",
+    "meaning": "cũ",
+    "example": "这本书很旧。",
+    "example_trans": "Cuốn sách này đã cũ."
+  },
+  {
+    "id": "hsk3_133",
+    "level": "HSK3",
+    "word": "举行",
+    "pinyin": "jǔxíng",
+    "hanviet": "",
+    "meaning": "tổ chức",
+    "example": "学校将举行运动会。",
+    "example_trans": "Trường sẽ tổ chức một cuộc thi thể thao."
+  },
+  {
+    "id": "hsk3_134",
+    "level": "HSK3",
+    "word": "句子",
+    "pinyin": "jùzi",
+    "hanviet": "",
+    "meaning": "câu",
+    "example": "请你用这个词语造句子。",
+    "example_trans": "Hãy sử dụng từ này để tạo thành một câu."
+  },
+  {
+    "id": "hsk3_135",
+    "level": "HSK3",
+    "word": "决定",
+    "pinyin": "juédìng",
+    "hanviet": "",
+    "meaning": "quyết định",
+    "example": "我决定明天去旅行。",
+    "example_trans": "Tôi đã quyết định đi du lịch vào ngày mai."
+  },
+  {
+    "id": "hsk3_136",
+    "level": "HSK3",
+    "word": "可爱",
+    "pinyin": "kě'ài",
+    "hanviet": "",
+    "meaning": "đáng yêu",
+    "example": "这只猫很可爱。",
+    "example_trans": "Con mèo này dễ thương quá."
+  },
+  {
+    "id": "hsk3_137",
+    "level": "HSK3",
+    "word": "刻",
+    "pinyin": "kè",
+    "hanviet": "",
+    "meaning": "khắc (15 phút)",
+    "example": "八点一刻我来。",
+    "example_trans": "Tôi sẽ có mặt lúc 8:15."
+  },
+  {
+    "id": "hsk3_138",
+    "level": "HSK3",
+    "word": "客人",
+    "pinyin": "kèrén",
+    "hanviet": "",
+    "meaning": "khách",
+    "example": "客人已经来了。",
+    "example_trans": "Khách đã đến."
+  },
+  {
+    "id": "hsk3_139",
+    "level": "HSK3",
+    "word": "空调",
+    "pinyin": "kòngtiáo",
+    "hanviet": "",
+    "meaning": "máy điều hòa",
+    "example": "房间里有空调。",
+    "example_trans": "Phòng có máy điều hòa."
+  },
+  {
+    "id": "hsk3_140",
+    "level": "HSK3",
+    "word": "口",
+    "pinyin": "kǒu",
+    "hanviet": "",
+    "meaning": "miệng, khẩu",
+    "example": "请你张开嘴巴。",
+    "example_trans": "Hãy mở miệng ra."
+  },
+  {
+    "id": "hsk3_141",
+    "level": "HSK3",
+    "word": "哭",
+    "pinyin": "kū",
+    "hanviet": "",
+    "meaning": "khóc",
+    "example": "孩子们在哭。",
+    "example_trans": "Các em nhỏ đang khóc."
+  },
+  {
+    "id": "hsk3_142",
+    "level": "HSK3",
+    "word": "裤子",
+    "pinyin": "kùzi",
+    "hanviet": "",
+    "meaning": "quần",
+    "example": "他穿了一条新裤子。",
+    "example_trans": "Anh ấy đang mặc một chiếc quần mới."
+  },
+  {
+    "id": "hsk3_143",
+    "level": "HSK3",
+    "word": "筷子",
+    "pinyin": "kuàizi",
+    "hanviet": "",
+    "meaning": "đũa",
+    "example": "我用筷子吃饭。",
+    "example_trans": "Tôi ăn bằng đũa."
+  },
+  {
+    "id": "hsk3_144",
+    "level": "HSK3",
+    "word": "蓝",
+    "pinyin": "lán",
+    "hanviet": "",
+    "meaning": "màu xanh",
+    "example": "天空是蓝色的。",
+    "example_trans": "Bầu trời trong xanh."
+  },
+  {
+    "id": "hsk3_145",
+    "level": "HSK3",
+    "word": "老",
+    "pinyin": "lǎo",
+    "hanviet": "",
+    "meaning": "già, cũ",
+    "example": "他是个老朋友。",
+    "example_trans": "Anh ấy là một người bạn cũ."
+  },
+  {
+    "id": "hsk3_146",
+    "level": "HSK3",
+    "word": "离开",
+    "pinyin": "líkāi",
+    "hanviet": "",
+    "meaning": "rời khỏi",
+    "example": "他已经离开了。",
+    "example_trans": "Anh ấy đã rời đi rồi."
+  },
+  {
+    "id": "hsk3_147",
+    "level": "HSK3",
+    "word": "礼物",
+    "pinyin": "lǐwù",
+    "hanviet": "",
+    "meaning": "quà",
+    "example": "这是我的生日礼物。",
+    "example_trans": "Đây là quà sinh nhật của tôi."
+  },
+  {
+    "id": "hsk3_148",
+    "level": "HSK3",
+    "word": "历史",
+    "pinyin": "lìshǐ",
+    "hanviet": "",
+    "meaning": "lịch sử",
+    "example": "他喜欢学习历史。",
+    "example_trans": "Anh ấy thích nghiên cứu lịch sử."
+  },
+  {
+    "id": "hsk3_149",
+    "level": "HSK3",
+    "word": "脸",
+    "pinyin": "liǎn",
+    "hanviet": "",
+    "meaning": "mặt",
+    "example": "她的脸很漂亮。",
+    "example_trans": "Cô ấy có khuôn mặt xinh đẹp."
+  },
+  {
+    "id": "hsk3_150",
+    "level": "HSK3",
+    "word": "练习",
+    "pinyin": "liànxí",
+    "hanviet": "",
+    "meaning": "luyện tập",
+    "example": "我每天练习中文。",
+    "example_trans": "Tôi luyện tập tiếng Trung mỗi ngày."
+  },
+  {
+    "id": "hsk3_151",
+    "level": "HSK3",
+    "word": "辆",
+    "pinyin": "liàng",
+    "hanviet": "",
+    "meaning": "chiếc (xe)",
+    "example": "他有一辆新车。",
+    "example_trans": "Anh ấy có một chiếc xe mới."
+  },
+  {
+    "id": "hsk3_152",
+    "level": "HSK3",
+    "word": "了解",
+    "pinyin": "liǎojiě",
+    "hanviet": "",
+    "meaning": "hiểu rõ",
+    "example": "我了解你的意思。",
+    "example_trans": "Tôi hiểu ý bạn."
+  },
+  {
+    "id": "hsk3_153",
+    "level": "HSK3",
+    "word": "邻居",
+    "pinyin": "línjū",
+    "hanviet": "",
+    "meaning": "hàng xóm",
+    "example": "我的邻居很友好。",
+    "example_trans": "Hàng xóm của tôi rất thân thiện."
+  },
+  {
+    "id": "hsk3_154",
+    "level": "HSK3",
+    "word": "楼",
+    "pinyin": "lóu",
+    "hanviet": "",
+    "meaning": "tòa nhà",
+    "example": "我们住在三楼。",
+    "example_trans": "Chúng tôi sống ở tầng ba."
+  },
+  {
+    "id": "hsk3_155",
+    "level": "HSK3",
+    "word": "马",
+    "pinyin": "mǎ",
+    "hanviet": "",
+    "meaning": "con ngựa",
+    "example": "马跑得很快。",
+    "example_trans": "Con ngựa chạy rất nhanh."
+  },
+  {
+    "id": "hsk3_156",
+    "level": "HSK3",
+    "word": "马上",
+    "pinyin": "mǎshàng",
+    "hanviet": "",
+    "meaning": "ngay lập tức",
+    "example": "我马上就来。",
+    "example_trans": "Tôi sẽ đến ngay."
+  },
+  {
+    "id": "hsk3_157",
+    "level": "HSK3",
+    "word": "满意",
+    "pinyin": "mǎnyì",
+    "hanviet": "",
+    "meaning": "hài lòng",
+    "example": "我对结果很满意。",
+    "example_trans": "Tôi rất hài lòng với kết quả."
+  },
+  {
+    "id": "hsk3_158",
+    "level": "HSK3",
+    "word": "帽子",
+    "pinyin": "màozi",
+    "hanviet": "",
+    "meaning": "mũ",
+    "example": "这顶帽子很漂亮。",
+    "example_trans": "Chiếc mũ này đẹp quá."
+  },
+  {
+    "id": "hsk3_159",
+    "level": "HSK3",
+    "word": "米",
+    "pinyin": "mǐ",
+    "hanviet": "",
+    "meaning": "gạo, mét",
+    "example": "我吃了一碗米饭。",
+    "example_trans": "Tôi đã ăn một bát cơm."
+  },
+  {
+    "id": "hsk3_160",
+    "level": "HSK3",
+    "word": "面包",
+    "pinyin": "miànbāo",
+    "hanviet": "",
+    "meaning": "bánh mì",
+    "example": "我每天早餐都吃面包。",
+    "example_trans": "Tôi ăn bánh mì vào bữa sáng mỗi ngày."
+  },
+  {
+    "id": "hsk3_161",
+    "level": "HSK3",
+    "word": "面条",
+    "pinyin": "miàntiáo",
+    "hanviet": "",
+    "meaning": "mì sợi",
+    "example": "他喜欢吃面条。",
+    "example_trans": "Anh ấy thích ăn mì."
+  },
+  {
+    "id": "hsk3_162",
+    "level": "HSK3",
+    "word": "明白",
+    "pinyin": "míngbái",
+    "hanviet": "",
+    "meaning": "hiểu rõ",
+    "example": "我明白你的意思。",
+    "example_trans": "Tôi hiểu ý bạn."
+  },
+  {
+    "id": "hsk3_163",
+    "level": "HSK3",
+    "word": "拿",
+    "pinyin": "ná",
+    "hanviet": "",
+    "meaning": "cầm, lấy",
+    "example": "请你帮我拿一下书。",
+    "example_trans": "Bạn có thể lấy giúp tôi cuốn sách này được không?"
+  },
+  {
+    "id": "hsk3_164",
+    "level": "HSK3",
+    "word": "奶奶",
+    "pinyin": "nǎinai",
+    "hanviet": "",
+    "meaning": "bà nội",
+    "example": "我奶奶住在乡下。",
+    "example_trans": "Bà tôi sống ở vùng nông thôn."
+  },
+  {
+    "id": "hsk3_165",
+    "level": "HSK3",
+    "word": "南",
+    "pinyin": "nán",
+    "hanviet": "",
+    "meaning": "phía nam",
+    "example": "我们往南走。",
+    "example_trans": "Chúng tôi đi về phía nam."
+  },
+  {
+    "id": "hsk3_166",
+    "level": "HSK3",
+    "word": "难",
+    "pinyin": "nán",
+    "hanviet": "",
+    "meaning": "khó",
+    "example": "这个问题很难。",
+    "example_trans": "Đây là một vấn đề khó khăn."
+  },
+  {
+    "id": "hsk3_167",
+    "level": "HSK3",
+    "word": "难过",
+    "pinyin": "nánguò",
+    "hanviet": "",
+    "meaning": "buồn",
+    "example": "他听到这个消息很难过。",
+    "example_trans": "Ông ấy rất buồn khi nghe tin này."
+  },
+  {
+    "id": "hsk3_168",
+    "level": "HSK3",
+    "word": "年级",
+    "pinyin": "niánjí",
+    "hanviet": "",
+    "meaning": "lớp, năm học",
+    "example": "我今年上三年级。",
+    "example_trans": "Năm nay tôi học lớp ba."
+  },
+  {
+    "id": "hsk3_169",
+    "level": "HSK3",
+    "word": "年轻",
+    "pinyin": "niánqīng",
+    "hanviet": "",
+    "meaning": "trẻ",
+    "example": "她很年轻。",
+    "example_trans": "Cô ấy còn rất trẻ."
+  },
+  {
+    "id": "hsk3_170",
+    "level": "HSK3",
+    "word": "鸟",
+    "pinyin": "niǎo",
+    "hanviet": "",
+    "meaning": "chim",
+    "example": "树上有很多鸟。",
+    "example_trans": "Trên cây có rất nhiều chim."
+  },
+  {
+    "id": "hsk3_171",
+    "level": "HSK3",
+    "word": "努力",
+    "pinyin": "nǔlì",
+    "hanviet": "",
+    "meaning": "nỗ lực, chăm chỉ",
+    "example": "他学习很努力。",
+    "example_trans": "Cậu ấy học rất chăm chỉ."
+  },
+  {
+    "id": "hsk3_172",
+    "level": "HSK3",
+    "word": "爬山",
+    "pinyin": "páshān",
+    "hanviet": "",
+    "meaning": "leo núi",
+    "example": "周末我们去爬山吧。",
+    "example_trans": "Cuối tuần này chúng ta cùng đi leo núi nhé."
+  },
+  {
+    "id": "hsk3_173",
+    "level": "HSK3",
+    "word": "盘子",
+    "pinyin": "pánzi",
+    "hanviet": "",
+    "meaning": "đĩa",
+    "example": "请把盘子放在桌子上。",
+    "example_trans": "Hãy đặt đĩa lên bàn."
+  },
+  {
+    "id": "hsk3_174",
+    "level": "HSK3",
+    "word": "胖",
+    "pinyin": "pàng",
+    "hanviet": "",
+    "meaning": "béo",
+    "example": "这个小孩有点儿胖。",
+    "example_trans": "Đứa trẻ này hơi mũm mĩm."
+  },
+  {
+    "id": "hsk3_175",
+    "level": "HSK3",
+    "word": "啤酒",
+    "pinyin": "píjiǔ",
+    "hanviet": "",
+    "meaning": "bia",
+    "example": "我不喝啤酒。",
+    "example_trans": "Tôi không uống bia."
+  },
+  {
+    "id": "hsk3_176",
+    "level": "HSK3",
+    "word": "葡萄",
+    "pinyin": "pútao",
+    "hanviet": "",
+    "meaning": "nho",
+    "example": "我喜欢吃葡萄。",
+    "example_trans": "Tôi thích ăn nho."
+  },
+  {
+    "id": "hsk3_177",
+    "level": "HSK3",
+    "word": "普通话",
+    "pinyin": "pǔtōnghuà",
+    "hanviet": "",
+    "meaning": "tiếng Phổ thông (tiếng Trung chuẩn)",
+    "example": "他说普通话说得很流利。",
+    "example_trans": "Anh ấy nói tiếng Quan thoại rất trôi chảy."
+  },
+  {
+    "id": "hsk3_178",
+    "level": "HSK3",
+    "word": "骑",
+    "pinyin": "qí",
+    "hanviet": "",
+    "meaning": "cưỡi, đi (xe đạp, xe máy)",
+    "example": "我喜欢骑自行车。",
+    "example_trans": "Tôi thích đi xe đạp."
+  },
+  {
+    "id": "hsk3_179",
+    "level": "HSK3",
+    "word": "其实",
+    "pinyin": "qíshí",
+    "hanviet": "",
+    "meaning": "thực ra",
+    "example": "其实我不太喜欢吃辣。",
+    "example_trans": "Thực ra, tôi không thích đồ ăn cay lắm."
+  },
+  {
+    "id": "hsk3_180",
+    "level": "HSK3",
+    "word": "其他",
+    "pinyin": "qítā",
+    "hanviet": "",
+    "meaning": "khác",
+    "example": "其他人都已经走了。",
+    "example_trans": "Mọi người khác đã rời đi hết rồi."
+  },
+  {
+    "id": "hsk3_181",
+    "level": "HSK3",
+    "word": "奇怪",
+    "pinyin": "qíguài",
+    "hanviet": "",
+    "meaning": "kỳ lạ",
+    "example": "这个事情很奇怪。",
+    "example_trans": "Điều này thật kỳ lạ."
+  },
+  {
+    "id": "hsk3_182",
+    "level": "HSK3",
+    "word": "铅笔",
+    "pinyin": "qiānbǐ",
+    "hanviet": "",
+    "meaning": "bút chì",
+    "example": "我需要一支铅笔。",
+    "example_trans": "Tôi cần một cây bút chì."
+  },
+  {
+    "id": "hsk3_183",
+    "level": "HSK3",
+    "word": "清楚",
+    "pinyin": "qīngchǔ",
+    "hanviet": "",
+    "meaning": "rõ ràng",
+    "example": "我不太清楚他的名字。",
+    "example_trans": "Tôi không nhớ rõ tên anh ấy."
+  },
+  {
+    "id": "hsk3_184",
+    "level": "HSK3",
+    "word": "秋",
+    "pinyin": "qiū",
+    "hanviet": "",
+    "meaning": "mùa thu",
+    "example": "秋天是我最喜欢的季节。",
+    "example_trans": "Mùa thu là mùa tôi yêu thích nhất."
+  },
+  {
+    "id": "hsk3_185",
+    "level": "HSK3",
+    "word": "裙子",
+    "pinyin": "qúnzi",
+    "hanviet": "",
+    "meaning": "váy",
+    "example": "她穿了一条红色的裙子。",
+    "example_trans": "Cô ấy mặc một chiếc váy màu đỏ."
+  },
+  {
+    "id": "hsk3_186",
+    "level": "HSK3",
+    "word": "然后",
+    "pinyin": "ránhòu",
+    "hanviet": "",
+    "meaning": "sau đó",
+    "example": "我们吃完饭然后去看电影。",
+    "example_trans": "Chúng tôi ăn tối xong rồi đi xem phim."
+  },
+  {
+    "id": "hsk3_187",
+    "level": "HSK3",
+    "word": "热情",
+    "pinyin": "rèqíng",
+    "hanviet": "",
+    "meaning": "nhiệt tình",
+    "example": "他对人很热情。",
+    "example_trans": "Anh ấy rất thân thiện và cởi mở với mọi người."
+  },
+  {
+    "id": "hsk3_188",
+    "level": "HSK3",
+    "word": "认为",
+    "pinyin": "rènwéi",
+    "hanviet": "",
+    "meaning": "cho rằng",
+    "example": "我认为他是对的。",
+    "example_trans": "Tôi nghĩ anh ấy nói đúng."
+  },
+  {
+    "id": "hsk3_189",
+    "level": "HSK3",
+    "word": "认真",
+    "pinyin": "rènzhēn",
+    "hanviet": "",
+    "meaning": "nghiêm túc",
+    "example": "她学习很认真。",
+    "example_trans": "Cô ấy học rất chăm chỉ."
+  },
+  {
+    "id": "hsk3_190",
+    "level": "HSK3",
+    "word": "容易",
+    "pinyin": "róngyì",
+    "hanviet": "",
+    "meaning": "dễ dàng",
+    "example": "这个问题很容易解决。",
+    "example_trans": "Vấn đề này rất dễ giải quyết."
+  },
+  {
+    "id": "hsk3_191",
+    "level": "HSK3",
+    "word": "如果",
+    "pinyin": "rúguǒ",
+    "hanviet": "",
+    "meaning": "nếu như",
+    "example": "如果你有时间，请来我家。",
+    "example_trans": "Nếu có thời gian, mời bạn đến nhà tôi."
+  },
+  {
+    "id": "hsk3_192",
+    "level": "HSK3",
+    "word": "伞",
+    "pinyin": "sǎn",
+    "hanviet": "",
+    "meaning": "ô, dù",
+    "example": "下雨了，带上伞吧。",
+    "example_trans": "Trời đang mưa, hãy mang theo ô."
+  },
+  {
+    "id": "hsk3_193",
+    "level": "HSK3",
+    "word": "上网",
+    "pinyin": "shàngwǎng",
+    "hanviet": "",
+    "meaning": "lên mạng",
+    "example": "我喜欢上网看新闻。",
+    "example_trans": "Tôi thích đọc tin tức trực tuyến."
+  },
+  {
+    "id": "hsk3_194",
+    "level": "HSK3",
+    "word": "生气",
+    "pinyin": "shēngqì",
+    "hanviet": "",
+    "meaning": "giận dữ",
+    "example": "她生气了，因为你迟到了。",
+    "example_trans": "Cô ấy giận vì bạn đến muộn."
+  },
+  {
+    "id": "hsk3_195",
+    "level": "HSK3",
+    "word": "声音",
+    "pinyin": "shēngyīn",
+    "hanviet": "",
+    "meaning": "âm thanh",
+    "example": "我听不到他的声音。",
+    "example_trans": "Tôi không nghe thấy giọng anh ấy."
+  },
+  {
+    "id": "hsk3_196",
+    "level": "HSK3",
+    "word": "使",
+    "pinyin": "shǐ",
+    "hanviet": "",
+    "meaning": "khiến, làm cho",
+    "example": "他使我非常生气。",
+    "example_trans": "Anh ta làm tôi rất tức giận."
+  },
+  {
+    "id": "hsk3_197",
+    "level": "HSK3",
+    "word": "世界",
+    "pinyin": "shìjiè",
+    "hanviet": "",
+    "meaning": "thế giới",
+    "example": "世界很大。",
+    "example_trans": "Thế giới này rộng lớn vô cùng."
+  },
+  {
+    "id": "hsk3_198",
+    "level": "HSK3",
+    "word": "瘦",
+    "pinyin": "shòu",
+    "hanviet": "",
+    "meaning": "gầy",
+    "example": "我觉得他越来越瘦了。",
+    "example_trans": "Tôi nghĩ anh ấy càng ngày càng gầy đi."
+  },
+  {
+    "id": "hsk3_199",
+    "level": "HSK3",
+    "word": "舒服",
+    "pinyin": "shūfu",
+    "hanviet": "",
+    "meaning": "thoải mái",
+    "example": "这张椅子很舒服。",
+    "example_trans": "Chiếc ghế này rất thoải mái."
+  },
+  {
+    "id": "hsk3_200",
+    "level": "HSK3",
+    "word": "叔叔",
+    "pinyin": "shūshu",
+    "hanviet": "",
+    "meaning": "chú",
+    "example": "我的叔叔很高。",
+    "example_trans": "Chú tôi rất cao."
+  },
+  {
+    "id": "hsk3_201",
+    "level": "HSK3",
+    "word": "树",
+    "pinyin": "shù",
+    "hanviet": "",
+    "meaning": "cây",
+    "example": "树上的鸟在唱歌。",
+    "example_trans": "Những chú chim trên cây đang hót."
+  },
+  {
+    "id": "hsk3_202",
+    "level": "HSK3",
+    "word": "数学",
+    "pinyin": "shùxué",
+    "hanviet": "",
+    "meaning": "toán học",
+    "example": "他数学很好。",
+    "example_trans": "Anh ấy rất giỏi toán."
+  },
+  {
+    "id": "hsk3_203",
+    "level": "HSK3",
+    "word": "刷牙",
+    "pinyin": "shuāyá",
+    "hanviet": "",
+    "meaning": "đánh răng",
+    "example": "我每天刷两次牙。",
+    "example_trans": "Tôi đánh răng hai lần một ngày."
+  },
+  {
+    "id": "hsk3_204",
+    "level": "HSK3",
+    "word": "双",
+    "pinyin": "shuāng",
+    "hanviet": "",
+    "meaning": "đôi",
+    "example": "我买了一双鞋。",
+    "example_trans": "Tôi đã mua một đôi giày."
+  },
+  {
+    "id": "hsk3_205",
+    "level": "HSK3",
+    "word": "水平",
+    "pinyin": "shuǐpíng",
+    "hanviet": "",
+    "meaning": "trình độ",
+    "example": "他的游泳水平很高。",
+    "example_trans": "Anh ấy bơi rất giỏi."
+  },
+  {
+    "id": "hsk3_206",
+    "level": "HSK3",
+    "word": "司机",
+    "pinyin": "sījī",
+    "hanviet": "",
+    "meaning": "lái xe, tài xế",
+    "example": "他是我们的司机。",
+    "example_trans": "Anh ấy là tài xế của chúng tôi."
+  },
+  {
+    "id": "hsk3_207",
+    "level": "HSK3",
+    "word": "虽然",
+    "pinyin": "suīrán",
+    "hanviet": "",
+    "meaning": "tuy rằng",
+    "example": "虽然他很忙，但他还是来了。",
+    "example_trans": "Mặc dù rất bận rộn, ông ấy vẫn đến."
+  },
+  {
+    "id": "hsk3_208",
+    "level": "HSK3",
+    "word": "太阳",
+    "pinyin": "tàiyáng",
+    "hanviet": "",
+    "meaning": "mặt trời",
+    "example": "太阳出来了。",
+    "example_trans": "Mặt trời đang ló dạng."
+  },
+  {
+    "id": "hsk3_209",
+    "level": "HSK3",
+    "word": "糖",
+    "pinyin": "táng",
+    "hanviet": "",
+    "meaning": "kẹo, đường",
+    "example": "我不喜欢吃糖。",
+    "example_trans": "Tôi không thích ăn đồ ngọt."
+  },
+  {
+    "id": "hsk3_210",
+    "level": "HSK3",
+    "word": "特别",
+    "pinyin": "tèbié",
+    "hanviet": "",
+    "meaning": "đặc biệt",
+    "example": "他特别喜欢跑步。",
+    "example_trans": "Anh ấy đặc biệt thích chạy bộ."
+  },
+  {
+    "id": "hsk3_211",
+    "level": "HSK3",
+    "word": "疼",
+    "pinyin": "téng",
+    "hanviet": "",
+    "meaning": "đau",
+    "example": "我的头很疼。",
+    "example_trans": "Tôi đau đầu lắm."
+  },
+  {
+    "id": "hsk3_212",
+    "level": "HSK3",
+    "word": "提高",
+    "pinyin": "tígāo",
+    "hanviet": "",
+    "meaning": "nâng cao",
+    "example": "我们要提高汉语水平。",
+    "example_trans": "Chúng ta cần nâng cao kỹ năng tiếng Trung của mình."
+  },
+  {
+    "id": "hsk3_213",
+    "level": "HSK3",
+    "word": "体育",
+    "pinyin": "tǐyù",
+    "hanviet": "",
+    "meaning": "thể dục, thể thao",
+    "example": "我喜欢体育运动。",
+    "example_trans": "Tôi thích thể thao."
+  },
+  {
+    "id": "hsk3_214",
+    "level": "HSK3",
+    "word": "甜",
+    "pinyin": "tián",
+    "hanviet": "",
+    "meaning": "ngọt",
+    "example": "这个蛋糕很甜。",
+    "example_trans": "Chiếc bánh này rất ngọt."
+  },
+  {
+    "id": "hsk3_215",
+    "level": "HSK3",
+    "word": "条",
+    "pinyin": "tiáo",
+    "hanviet": "",
+    "meaning": "sợi, cái",
+    "example": "他买了一条裤子。",
+    "example_trans": "Anh ấy đã mua một chiếc quần."
+  },
+  {
+    "id": "hsk3_216",
+    "level": "HSK3",
+    "word": "同事",
+    "pinyin": "tóngshì",
+    "hanviet": "",
+    "meaning": "đồng nghiệp",
+    "example": "他是我的同事。",
+    "example_trans": "Anh ấy là đồng nghiệp của tôi."
+  },
+  {
+    "id": "hsk3_217",
+    "level": "HSK3",
+    "word": "同意",
+    "pinyin": "tóngyì",
+    "hanviet": "",
+    "meaning": "đồng ý",
+    "example": "我同意你的看法。",
+    "example_trans": "Tôi đồng ý với bạn."
+  },
+  {
+    "id": "hsk3_218",
+    "level": "HSK3",
+    "word": "头发",
+    "pinyin": "tóufa",
+    "hanviet": "",
+    "meaning": "tóc",
+    "example": "她的头发很长。",
+    "example_trans": "Tóc cô ấy rất dài."
+  },
+  {
+    "id": "hsk3_219",
+    "level": "HSK3",
+    "word": "突然",
+    "pinyin": "tūrán",
+    "hanviet": "",
+    "meaning": "đột nhiên",
+    "example": "他突然离开了。",
+    "example_trans": "Anh ta đột ngột bỏ đi."
+  },
+  {
+    "id": "hsk3_220",
+    "level": "HSK3",
+    "word": "图书馆",
+    "pinyin": "túshūguǎn",
+    "hanviet": "",
+    "meaning": "thư viện",
+    "example": "我们去图书馆看书吧。",
+    "example_trans": "Chúng ta cùng đến thư viện đọc sách nhé."
+  },
+  {
+    "id": "hsk3_221",
+    "level": "HSK3",
+    "word": "腿",
+    "pinyin": "tuǐ",
+    "hanviet": "",
+    "meaning": "chân",
+    "example": "他的腿很长。",
+    "example_trans": "Chân anh ấy rất dài."
+  },
+  {
+    "id": "hsk3_222",
+    "level": "HSK3",
+    "word": "完成",
+    "pinyin": "wánchéng",
+    "hanviet": "",
+    "meaning": "hoàn thành",
+    "example": "我完成了作业。",
+    "example_trans": "Tôi đã làm xong bài tập về nhà."
+  },
+  {
+    "id": "hsk3_223",
+    "level": "HSK3",
+    "word": "碗",
+    "pinyin": "wǎn",
+    "hanviet": "",
+    "meaning": "bát",
+    "example": "他吃了三碗饭。",
+    "example_trans": "Anh ấy đã ăn ba bát cơm."
+  },
+  {
+    "id": "hsk3_224",
+    "level": "HSK3",
+    "word": "万",
+    "pinyin": "wàn",
+    "hanviet": "",
+    "meaning": "vạn, mười nghìn",
+    "example": "一万个人参加了比赛。",
+    "example_trans": "Mười nghìn người đã tham gia cuộc thi."
+  },
+  {
+    "id": "hsk3_225",
+    "level": "HSK3",
+    "word": "忘记",
+    "pinyin": "wàngjì",
+    "hanviet": "",
+    "meaning": "quên",
+    "example": "请不要忘记带书。",
+    "example_trans": "Đừng quên mang theo sách của bạn nhé."
+  },
+  {
+    "id": "hsk3_226",
+    "level": "HSK3",
+    "word": "位",
+    "pinyin": "wèi",
+    "hanviet": "",
+    "meaning": "vị, ngài",
+    "example": "请坐在这位先生旁边。",
+    "example_trans": "Mời quý ông ngồi cạnh người đàn ông này."
+  },
+  {
+    "id": "hsk3_227",
+    "level": "HSK3",
+    "word": "为",
+    "pinyin": "wèi",
+    "hanviet": "",
+    "meaning": "vì",
+    "example": "我为你感到骄傲。",
+    "example_trans": "Tôi tự hào về bạn."
+  },
+  {
+    "id": "hsk3_228",
+    "level": "HSK3",
+    "word": "为了",
+    "pinyin": "wèile",
+    "hanviet": "",
+    "meaning": "để, vì",
+    "example": "我来中国是为了学习汉语。",
+    "example_trans": "Tôi đến Trung Quốc để học tiếng Trung."
+  },
+  {
+    "id": "hsk3_229",
+    "level": "HSK3",
+    "word": "文化",
+    "pinyin": "wénhuà",
+    "hanviet": "",
+    "meaning": "văn hóa",
+    "example": "他对中国文化很感兴趣。",
+    "example_trans": "Anh ấy rất quan tâm đến văn hóa Trung Quốc."
+  },
+  {
+    "id": "hsk3_230",
+    "level": "HSK3",
+    "word": "西",
+    "pinyin": "xī",
+    "hanviet": "",
+    "meaning": "phía tây",
+    "example": "我住在西边。",
+    "example_trans": "Tôi sống ở phía tây."
+  },
+  {
+    "id": "hsk3_231",
+    "level": "HSK3",
+    "word": "习惯",
+    "pinyin": "xíguàn",
+    "hanviet": "",
+    "meaning": "thói quen",
+    "example": "他习惯早起。",
+    "example_trans": "Anh ấy đã quen với việc thức dậy sớm."
+  },
+  {
+    "id": "hsk3_232",
+    "level": "HSK3",
+    "word": "洗手间",
+    "pinyin": "xǐshǒujiān",
+    "hanviet": "",
+    "meaning": "nhà vệ sinh",
+    "example": "洗手间在那边。",
+    "example_trans": "Nhà vệ sinh ở đằng kia."
+  },
+  {
+    "id": "hsk3_233",
+    "level": "HSK3",
+    "word": "洗澡",
+    "pinyin": "xǐzǎo",
+    "hanviet": "",
+    "meaning": "tắm",
+    "example": "我每天早上都洗澡。",
+    "example_trans": "Tôi tắm mỗi sáng."
+  },
+  {
+    "id": "hsk3_234",
+    "level": "HSK3",
+    "word": "喜欢",
+    "pinyin": "xǐhuān",
+    "hanviet": "",
+    "meaning": "thích",
+    "example": "我喜欢这个颜色。",
+    "example_trans": "Tôi thích màu này."
+  },
+  {
+    "id": "hsk3_235",
+    "level": "HSK3",
+    "word": "现在",
+    "pinyin": "xiànzài",
+    "hanviet": "",
+    "meaning": "hiện tại , bây giờ",
+    "example": "现在是八点。",
+    "example_trans": "Bây giờ là tám giờ."
+  },
+  {
+    "id": "hsk3_236",
+    "level": "HSK3",
+    "word": "香蕉",
+    "pinyin": "xiāngjiāo",
+    "hanviet": "",
+    "meaning": "chuối",
+    "example": "香蕉是黄色的。",
+    "example_trans": "Chuối có màu vàng."
+  },
+  {
+    "id": "hsk3_237",
+    "level": "HSK3",
+    "word": "相同",
+    "pinyin": "xiāngtóng",
+    "hanviet": "",
+    "meaning": "giống nhau",
+    "example": "我们的看法相同。",
+    "example_trans": "Chúng ta cùng chung quan điểm."
+  },
+  {
+    "id": "hsk3_238",
+    "level": "HSK3",
+    "word": "相信",
+    "pinyin": "xiāngxìn",
+    "hanviet": "",
+    "meaning": "tin tưởng",
+    "example": "我相信他的话。",
+    "example_trans": "Tôi tin anh ấy."
+  },
+  {
+    "id": "hsk3_239",
+    "level": "HSK3",
+    "word": "像",
+    "pinyin": "xiàng",
+    "hanviet": "",
+    "meaning": "giống",
+    "example": "他像他爸爸一样高。",
+    "example_trans": "Cậu ấy cao bằng bố mình."
+  },
+  {
+    "id": "hsk3_240",
+    "level": "HSK3",
+    "word": "小心",
+    "pinyin": "xiǎoxīn",
+    "hanviet": "",
+    "meaning": "cẩn thận",
+    "example": "请小心地走路。",
+    "example_trans": "Hãy đi lại cẩn thận."
+  },
+  {
+    "id": "hsk3_241",
+    "level": "HSK3",
+    "word": "校长",
+    "pinyin": "xiàozhǎng",
+    "hanviet": "",
+    "meaning": "hiệu trưởng",
+    "example": "校长在办公室工作。",
+    "example_trans": "Hiệu trưởng làm việc trong văn phòng của mình."
+  },
+  {
+    "id": "hsk3_242",
+    "level": "HSK3",
+    "word": "鞋",
+    "pinyin": "xié",
+    "hanviet": "",
+    "meaning": "giày",
+    "example": "我买了一双新鞋。",
+    "example_trans": "Tôi vừa mua một đôi giày mới."
+  },
+  {
+    "id": "hsk3_243",
+    "level": "HSK3",
+    "word": "新闻",
+    "pinyin": "xīnwén",
+    "hanviet": "",
+    "meaning": "tin tức",
+    "example": "我每天都看新闻。",
+    "example_trans": "Tôi xem tin tức mỗi ngày."
+  },
+  {
+    "id": "hsk3_244",
+    "level": "HSK3",
+    "word": "新鲜",
+    "pinyin": "xīnxiān",
+    "hanviet": "",
+    "meaning": "tươi mới",
+    "example": "这些水果很新鲜。",
+    "example_trans": "Những loại trái cây này rất tươi."
+  },
+  {
+    "id": "hsk3_245",
+    "level": "HSK3",
+    "word": "信",
+    "pinyin": "xìn",
+    "hanviet": "",
+    "meaning": "thư, tin tưởng",
+    "example": "我给你写了一封信。",
+    "example_trans": "Tôi đã viết cho bạn một lá thư."
+  },
+  {
+    "id": "hsk3_246",
+    "level": "HSK3",
+    "word": "行李箱",
+    "pinyin": "xínglǐxiāng",
+    "hanviet": "",
+    "meaning": "vali",
+    "example": "我的行李箱很重。",
+    "example_trans": "Vali của tôi rất nặng."
+  },
+  {
+    "id": "hsk3_247",
+    "level": "HSK3",
+    "word": "兴趣",
+    "pinyin": "xìngqù",
+    "hanviet": "",
+    "meaning": "hứng thú",
+    "example": "我对中国文化有兴趣。",
+    "example_trans": "Tôi quan tâm đến văn hóa Trung Quốc."
+  },
+  {
+    "id": "hsk3_248",
+    "level": "HSK3",
+    "word": "熊猫",
+    "pinyin": "xióngmāo",
+    "hanviet": "",
+    "meaning": "gấu trúc",
+    "example": "熊猫是中国的国宝。",
+    "example_trans": "Gấu trúc là báu vật quốc gia của Trung Quốc."
+  },
+  {
+    "id": "hsk3_249",
+    "level": "HSK3",
+    "word": "需要",
+    "pinyin": "xūyào",
+    "hanviet": "",
+    "meaning": "cần",
+    "example": "我需要一杯水。",
+    "example_trans": "Tôi cần một cốc nước."
+  },
+  {
+    "id": "hsk3_250",
+    "level": "HSK3",
+    "word": "选择",
+    "pinyin": "xuǎnzé",
+    "hanviet": "",
+    "meaning": "lựa chọn",
+    "example": "你可以选择一个礼物。",
+    "example_trans": "Bạn có thể chọn một món quà."
+  },
+  {
+    "id": "hsk3_251",
+    "level": "HSK3",
+    "word": "眼镜",
+    "pinyin": "yǎnjìng",
+    "hanviet": "",
+    "meaning": "kính",
+    "example": "他戴着一副眼镜。",
+    "example_trans": "Anh ấy đeo kính."
+  },
+  {
+    "id": "hsk3_252",
+    "level": "HSK3",
+    "word": "要求",
+    "pinyin": "yāoqiú",
+    "hanviet": "",
+    "meaning": "yêu cầu",
+    "example": "老师对学生有很高的要求。",
+    "example_trans": "Giáo viên đặt kỳ vọng cao vào học sinh."
+  },
+  {
+    "id": "hsk3_253",
+    "level": "HSK3",
+    "word": "爷爷",
+    "pinyin": "yéye",
+    "hanviet": "",
+    "meaning": "ông nội",
+    "example": "我爷爷很喜欢看书。",
+    "example_trans": "Ông tôi rất thích đọc sách."
+  },
+  {
+    "id": "hsk3_254",
+    "level": "HSK3",
+    "word": "一定",
+    "pinyin": "yīdìng",
+    "hanviet": "",
+    "meaning": "nhất định",
+    "example": "我一定会努力学习。",
+    "example_trans": "Tôi nhất định sẽ học hành chăm chỉ."
+  },
+  {
+    "id": "hsk3_255",
+    "level": "HSK3",
+    "word": "一共",
+    "pinyin": "yīgòng",
+    "hanviet": "",
+    "meaning": "tổng cộng",
+    "example": "我们一共有五个人。",
+    "example_trans": "Tổng cộng có năm người chúng tôi."
+  },
+  {
+    "id": "hsk3_256",
+    "level": "HSK3",
+    "word": "一会儿",
+    "pinyin": "yīhuìr",
+    "hanviet": "",
+    "meaning": "một lát",
+    "example": "请等我一会儿。",
+    "example_trans": "Vui lòng đợi tôi một lát."
+  },
+  {
+    "id": "hsk3_257",
+    "level": "HSK3",
+    "word": "一样",
+    "pinyin": "yīyàng",
+    "hanviet": "",
+    "meaning": "giống nhau",
+    "example": "他们和我们一样高。",
+    "example_trans": "Họ cao bằng chúng ta."
+  },
+  {
+    "id": "hsk3_258",
+    "level": "HSK3",
+    "word": "以后",
+    "pinyin": "yǐhòu",
+    "hanviet": "",
+    "meaning": "sau này",
+    "example": "我以后再来。",
+    "example_trans": "Tôi sẽ quay lại sau."
+  },
+  {
+    "id": "hsk3_259",
+    "level": "HSK3",
+    "word": "以前",
+    "pinyin": "yǐqián",
+    "hanviet": "",
+    "meaning": "trước đây",
+    "example": "我以前住在北京。",
+    "example_trans": "Tôi từng sống ở Bắc Kinh."
+  },
+  {
+    "id": "hsk3_260",
+    "level": "HSK3",
+    "word": "以为",
+    "pinyin": "yǐwéi",
+    "hanviet": "",
+    "meaning": "cho rằng",
+    "example": "我以为你不来了。",
+    "example_trans": "Tôi tưởng bạn không đến."
+  },
+  {
+    "id": "hsk3_261",
+    "level": "HSK3",
+    "word": "一般",
+    "pinyin": "yībān",
+    "hanviet": "",
+    "meaning": "thông thường",
+    "example": "这个饭馆很一般。",
+    "example_trans": "Nhà hàng này chỉ ở mức tạm được."
+  },
+  {
+    "id": "hsk3_262",
+    "level": "HSK3",
+    "word": "一边",
+    "pinyin": "yībiān",
+    "hanviet": "",
+    "meaning": "vừa ... vừa ...",
+    "example": "他一边吃饭一边看电视。",
+    "example_trans": "Anh ấy vừa ăn vừa xem tivi."
+  },
+  {
+    "id": "hsk3_263",
+    "level": "HSK3",
+    "word": "一直",
+    "pinyin": "yīzhí",
+    "hanviet": "",
+    "meaning": "luôn luôn",
+    "example": "他一直在学习。",
+    "example_trans": "Anh ấy đã và đang học tập."
+  },
+  {
+    "id": "hsk3_264",
+    "level": "HSK3",
+    "word": "音乐",
+    "pinyin": "yīnyuè",
+    "hanviet": "",
+    "meaning": "âm nhạc",
+    "example": "我喜欢听音乐。",
+    "example_trans": "Tôi thích nghe nhạc."
+  },
+  {
+    "id": "hsk3_265",
+    "level": "HSK3",
+    "word": "银行",
+    "pinyin": "yínháng",
+    "hanviet": "",
+    "meaning": "ngân hàng",
+    "example": "我去银行取钱。",
+    "example_trans": "Tôi đến ngân hàng để rút tiền."
+  },
+  {
+    "id": "hsk3_266",
+    "level": "HSK3",
+    "word": "应该",
+    "pinyin": "yīnggāi",
+    "hanviet": "",
+    "meaning": "nên",
+    "example": "你应该多休息。",
+    "example_trans": "Bạn nên nghỉ ngơi nhiều hơn."
+  },
+  {
+    "id": "hsk3_267",
+    "level": "HSK3",
+    "word": "影响",
+    "pinyin": "yǐngxiǎng",
+    "hanviet": "",
+    "meaning": "ảnh hưởng",
+    "example": "这个电影对我影响很大。",
+    "example_trans": "Bộ phim này đã để lại ấn tượng sâu sắc đối với tôi."
+  },
+  {
+    "id": "hsk3_268",
+    "level": "HSK3",
+    "word": "用",
+    "pinyin": "yòng",
+    "hanviet": "",
+    "meaning": "dùng",
+    "example": "请不要用手机。",
+    "example_trans": "Vui lòng không sử dụng điện thoại di động."
+  },
+  {
+    "id": "hsk3_269",
+    "level": "HSK3",
+    "word": "游戏",
+    "pinyin": "yóuxì",
+    "hanviet": "",
+    "meaning": "trò chơi",
+    "example": "我喜欢玩游戏。",
+    "example_trans": "Tôi thích chơi game."
+  },
+  {
+    "id": "hsk3_270",
+    "level": "HSK3",
+    "word": "又",
+    "pinyin": "yòu",
+    "hanviet": "",
+    "meaning": "lại, vừa",
+    "example": "他又来了。",
+    "example_trans": "Anh ấy lại đến đây rồi."
+  },
+  {
+    "id": "hsk3_271",
+    "level": "HSK3",
+    "word": "有名",
+    "pinyin": "yǒumíng",
+    "hanviet": "",
+    "meaning": "nổi tiếng",
+    "example": "他是一个有名的歌手。",
+    "example_trans": "Anh ấy là một ca sĩ nổi tiếng."
+  },
+  {
+    "id": "hsk3_272",
+    "level": "HSK3",
+    "word": "遇到",
+    "pinyin": "yùdào",
+    "hanviet": "",
+    "meaning": "gặp phải",
+    "example": "我在路上遇到他了。",
+    "example_trans": "Tôi tình cờ gặp anh ấy trên đường."
+  },
+  {
+    "id": "hsk3_273",
+    "level": "HSK3",
+    "word": "月亮",
+    "pinyin": "yuèliàng",
+    "hanviet": "",
+    "meaning": "mặt trăng",
+    "example": "今天晚上的月亮很圆。",
+    "example_trans": "Đêm nay mặt trăng rất tròn."
+  },
+  {
+    "id": "hsk3_274",
+    "level": "HSK3",
+    "word": "云",
+    "pinyin": "yún",
+    "hanviet": "",
+    "meaning": "mây",
+    "example": "天上的云很美。",
+    "example_trans": "Những đám mây trên bầu trời thật đẹp."
+  },
+  {
+    "id": "hsk3_275",
+    "level": "HSK3",
+    "word": "站",
+    "pinyin": "zhàn",
+    "hanviet": "",
+    "meaning": "đứng, trạm",
+    "example": "请站在这儿。",
+    "example_trans": "Mời đứng ở đây."
+  },
+  {
+    "id": "hsk3_276",
+    "level": "HSK3",
+    "word": "长",
+    "pinyin": "zhǎng",
+    "hanviet": "",
+    "meaning": "dài",
+    "example": "他长得很高。",
+    "example_trans": "Anh ấy rất cao."
+  },
+  {
+    "id": "hsk3_277",
+    "level": "HSK3",
+    "word": "着急",
+    "pinyin": "zhāojí",
+    "hanviet": "",
+    "meaning": "lo lắng",
+    "example": "他很着急。",
+    "example_trans": "Anh ấy rất lo lắng."
+  },
+  {
+    "id": "hsk3_278",
+    "level": "HSK3",
+    "word": "照顾",
+    "pinyin": "zhàogu",
+    "hanviet": "",
+    "meaning": "chăm sóc",
+    "example": "我会照顾你。",
+    "example_trans": "Tôi sẽ chăm sóc bạn."
+  },
+  {
+    "id": "hsk3_279",
+    "level": "HSK3",
+    "word": "照片",
+    "pinyin": "zhàopiàn",
+    "hanviet": "",
+    "meaning": "bức ảnh",
+    "example": "这张照片很好看。",
+    "example_trans": "Bức ảnh này đẹp quá."
+  },
+  {
+    "id": "hsk3_280",
+    "level": "HSK3",
+    "word": "照相机",
+    "pinyin": "zhàoxiàngjī",
+    "hanviet": "",
+    "meaning": "máy ảnh",
+    "example": "我有一台新的照相机。",
+    "example_trans": "Tôi vừa mua một chiếc máy ảnh mới."
+  },
+  {
+    "id": "hsk3_281",
+    "level": "HSK3",
+    "word": "只",
+    "pinyin": "zhǐ",
+    "hanviet": "",
+    "meaning": "chỉ",
+    "example": "我只吃了一点儿。",
+    "example_trans": "Tôi chỉ ăn một chút thôi."
+  },
+  {
+    "id": "hsk3_282",
+    "level": "HSK3",
+    "word": "中间",
+    "pinyin": "zhōngjiān",
+    "hanviet": "",
+    "meaning": "ở giữa",
+    "example": "他站在房间的中间。",
+    "example_trans": "Anh ta đứng giữa phòng."
+  },
+  {
+    "id": "hsk3_283",
+    "level": "HSK3",
+    "word": "终于",
+    "pinyin": "zhōngyú",
+    "hanviet": "",
+    "meaning": "cuối cùng",
+    "example": "我终于完成了作业。",
+    "example_trans": "Cuối cùng thì tôi cũng làm xong bài tập về nhà rồi."
+  },
+  {
+    "id": "hsk3_284",
+    "level": "HSK3",
+    "word": "种",
+    "pinyin": "zhǒng",
+    "hanviet": "",
+    "meaning": "loại, hạt giống",
+    "example": "他喜欢这种花。",
+    "example_trans": "Anh ấy thích loài hoa này."
+  },
+  {
+    "id": "hsk3_285",
+    "level": "HSK3",
+    "word": "重要",
+    "pinyin": "zhòngyào",
+    "hanviet": "",
+    "meaning": "quan trọng",
+    "example": "这件事很重要。",
+    "example_trans": "Điều này rất quan trọng."
+  },
+  {
+    "id": "hsk3_286",
+    "level": "HSK3",
+    "word": "主要",
+    "pinyin": "zhǔyào",
+    "hanviet": "",
+    "meaning": "chủ yếu",
+    "example": "主要问题是时间不够。",
+    "example_trans": "Vấn đề chính là không đủ thời gian."
+  },
+  {
+    "id": "hsk3_287",
+    "level": "HSK3",
+    "word": "周末",
+    "pinyin": "zhōumò",
+    "hanviet": "",
+    "meaning": "cuối tuần",
+    "example": "周末我去公园玩。",
+    "example_trans": "Tôi đã đến công viên vào cuối tuần."
+  },
+  {
+    "id": "hsk3_288",
+    "level": "HSK3",
+    "word": "祝",
+    "pinyin": "zhù",
+    "hanviet": "",
+    "meaning": "chúc",
+    "example": "祝你生日快乐。",
+    "example_trans": "Chúc mừng sinh nhật bạn."
+  },
+  {
+    "id": "hsk3_289",
+    "level": "HSK3",
+    "word": "注意",
+    "pinyin": "zhùyì",
+    "hanviet": "",
+    "meaning": "chú ý",
+    "example": "请注意安全。",
+    "example_trans": "Hãy cẩn thận."
+  },
+  {
+    "id": "hsk3_290",
+    "level": "HSK3",
+    "word": "字典",
+    "pinyin": "zìdiǎn",
+    "hanviet": "",
+    "meaning": "từ điển",
+    "example": "我需要一本字典。",
+    "example_trans": "Tôi cần một cuốn từ điển."
+  },
+  {
+    "id": "hsk3_291",
+    "level": "HSK3",
+    "word": "自己",
+    "pinyin": "zìjǐ",
+    "hanviet": "",
+    "meaning": "bản thân",
+    "example": "这是我自己的问题。",
+    "example_trans": "Đây là vấn đề của riêng tôi."
+  },
+  {
+    "id": "hsk3_292",
+    "level": "HSK3",
+    "word": "总是",
+    "pinyin": "zǒngshì",
+    "hanviet": "",
+    "meaning": "luôn luôn",
+    "example": "他总是很忙。",
+    "example_trans": "Anh ấy lúc nào cũng rất bận rộn."
+  },
+  {
+    "id": "hsk3_293",
+    "level": "HSK3",
+    "word": "最近",
+    "pinyin": "zuìjìn",
+    "hanviet": "",
+    "meaning": "gần đây",
+    "example": "最近我很忙。",
+    "example_trans": "Dạo này tôi bận rộn quá."
+  },
+  {
+    "id": "hsk3_294",
+    "level": "HSK3",
+    "word": "作业",
+    "pinyin": "zuòyè",
+    "hanviet": "",
+    "meaning": "bài tập về nhà",
+    "example": "我已经做完作业了。",
+    "example_trans": "Tôi đã làm xong bài tập về nhà."
+  },
+  {
+    "id": "hsk3_295",
+    "level": "HSK3",
+    "word": "作用",
+    "pinyin": "zuòyòng",
+    "hanviet": "",
+    "meaning": "tác dụng",
+    "example": "这个词的作用是什么？",
+    "example_trans": "Từ này có chức năng gì?"
+  }
+]

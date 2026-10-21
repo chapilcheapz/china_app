@@ -1,0 +1,35 @@
+{
+  "total": 5002,
+  "levels": {
+    "HSK1": {
+      "name": "HSK1",
+      "count": 149,
+      "file": "/data/hsk1.json"
+    },
+    "HSK2": {
+      "name": "HSK2",
+      "count": 150,
+      "file": "/data/hsk2.json"
+    },
+    "HSK3": {
+      "name": "HSK3",
+      "count": 295,
+      "file": "/data/hsk3.json"
+    },
+    "HSK4": {
+      "name": "HSK4",
+      "count": 600,
+      "file": "/data/hsk4.json"
+    },
+    "HSK5": {
+      "name": "HSK5",
+      "count": 1295,
+      "file": "/data/hsk5.json"
+    },
+    "HSK6": {
+      "name": "HSK6",
+      "count": 2513,
+      "file": "/data/hsk6.json"
+    }
+  }
+}
