@@ -14,7 +14,15 @@ export default function App() {
   const [darkMode, setDarkMode] = useState(() => {
     return localStorage.getItem('china_app_dark') === 'true';
   });
-  const [soundEnabled, setSoundEnabled] = useState(true);
+  const [soundEnabled, setSoundEnabled] = useState(() => {
+    const saved = localStorage.getItem('china_app_sound');
+    return saved !== null ? saved === 'true' : true;
+  });
+
+  useEffect(() => {
+    localStorage.setItem('china_app_sound', String(soundEnabled));
+    sfx.soundEnabled = soundEnabled;
+  }, [soundEnabled]);
 
   // Data states
   const [summary, setSummary] = useState(null);

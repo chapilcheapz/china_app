@@ -11,7 +11,7 @@ import {
   Sun,
   Layers
 } from 'lucide-react';
-import { sfx } from '../utils/audio';
+import { sfx, stopAllAudio } from '../utils/audio';
 
 export default function Navbar({ 
   currentTab, 
@@ -38,7 +38,11 @@ export default function Navbar({
     const next = !soundEnabled;
     setSoundEnabled(next);
     sfx.soundEnabled = next;
-    if (next) sfx.playSuccess();
+    if (!next) {
+      stopAllAudio();
+    } else {
+      sfx.playSuccess();
+    }
   };
 
   return (

@@ -3,7 +3,12 @@
 class SoundEffects {
   constructor() {
     this.ctx = null;
-    this.soundEnabled = true;
+    let saved = true;
+    if (typeof window !== 'undefined') {
+      const val = localStorage.getItem('china_app_sound');
+      if (val !== null) saved = val === 'true';
+    }
+    this.soundEnabled = saved;
   }
 
   init() {
@@ -92,6 +97,24 @@ let lastSpokenText = '';
 let lastSpokenTime = 0;
 
 /**
+ * Stop any currently playing audio or speech immediately
+ */
+export const stopAllAudio = () => {
+  if (activeAudio) {
+    try {
+      activeAudio.pause();
+      activeAudio.removeAttribute('src');
+      activeAudio = null;
+    } catch (e) {}
+  }
+  if (typeof window !== 'undefined' && window.speechSynthesis) {
+    try {
+      window.speechSynthesis.cancel();
+    } catch (e) {}
+  }
+};
+
+/**
  * Clean Chinese text before speech:
  * Removes grammatical annotations like "（助词）" or parenthetical aliases
  */
@@ -109,10 +132,18 @@ export function cleanChineseTextForSpeech(raw) {
  * Universal Mandarin Speech Player:
  * - 100% covers all words (including 本, thành ngữ, câu ví dụ).
  * - Multi-tiered fallback: Vite Proxy -> Google TTS (no-referrer) -> Baidu TTS -> Web Speech API (offline).
+ * - Respects Master Sound Toggle (sfx.soundEnabled).
  * - Debounces rapid clicks to prevent duplicate speech.
  */
 export const speakChinese = (text, rate = 0.9) => {
   if (typeof window === 'undefined') return;
+
+  // Master Sound Toggle Check: If sound is muted at the top, NEVER speak!
+  if (!sfx.soundEnabled) {
+    stopAllAudio();
+    return;
+  }
+
   const cleanText = cleanChineseTextForSpeech(text);
   if (!cleanText) return;
 
