@@ -322,7 +322,10 @@ export default function FlashcardView({
 
                 {/* Speaker Button */}
                 <button
-                  onClick={() => speakChinese(currentWord.word)}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    speakChinese(currentWord.word);
+                  }}
                   className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 hover:text-red-600 transition-colors"
                   title="Phát âm tiếng Trung"
                 >
@@ -378,7 +381,10 @@ export default function FlashcardView({
 
               <div className="flex items-center gap-1">
                 <button
-                  onClick={() => speakChinese(currentWord.word)}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    speakChinese(currentWord.word);
+                  }}
                   className="p-1.5 rounded-lg hover:bg-red-100 dark:hover:bg-slate-800 text-red-600 dark:text-red-400"
                   title="Nghe từ vựng"
                 >
@@ -409,7 +415,10 @@ export default function FlashcardView({
                       {currentWord.example}
                     </p>
                     <button
-                      onClick={() => speakChinese(currentWord.example)}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        speakChinese(currentWord.example);
+                      }}
                       className="p-1 rounded-md text-slate-400 hover:text-red-600 hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors shrink-0"
                       title="Nghe cả câu ví dụ"
                     >

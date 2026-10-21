@@ -44,7 +44,7 @@ export default function TypingPracticeView({
     if (currentWord) {
       speakChinese(currentWord.word);
     }
-  }, [currentIndex, currentWord]);
+  }, [currentIndex]);
 
   // Virtual keyboard buttons (characters from target word + random distractors)
   const virtualKeys = React.useMemo(() => {

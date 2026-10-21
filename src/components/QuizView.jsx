@@ -94,11 +94,12 @@ export default function QuizView({
   // Auto-play audio in listening mode
   useEffect(() => {
     if (isStarted && !isFinished && currentQ && mode === 'listening') {
-      setTimeout(() => {
+      const timer = setTimeout(() => {
         speakChinese(currentQ.word.word);
-      }, 200);
+      }, 250);
+      return () => clearTimeout(timer);
     }
-  }, [isStarted, isFinished, currentQ, mode, currentQuestionIndex]);
+  }, [isStarted, isFinished, mode, currentQuestionIndex]);
 
   // Timer effect
   useEffect(() => {

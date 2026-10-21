@@ -1,4 +1,4 @@
-// Audio utilities: Web Speech API (offline) + Online High-Quality Native Mandarin Audio Fallback + Web Audio API SFX
+// Audio utilities: Native Mandarin Speech (Youdao Online Audio primary, Web Speech API fallback) + Web Audio SFX
 
 class SoundEffects {
   constructor() {
@@ -86,125 +86,106 @@ class SoundEffects {
 
 export const sfx = new SoundEffects();
 
-// Voice detection & caching
-let chineseVoices = [];
-let voicesInitialized = false;
-
-function detectChineseVoices() {
-  if (typeof window === 'undefined' || !window.speechSynthesis) return [];
-  const voices = window.speechSynthesis.getVoices() || [];
-  chineseVoices = voices.filter(v => {
-    const lang = (v.lang || '').toLowerCase();
-    return lang.includes('zh') || lang.includes('cmn') || lang.startsWith('zh-cn') || lang.startsWith('zh-tw');
-  });
-  if (voices.length > 0) {
-    voicesInitialized = true;
-  }
-  return chineseVoices;
-}
-
-if (typeof window !== 'undefined' && window.speechSynthesis) {
-  detectChineseVoices();
-  window.speechSynthesis.onvoiceschanged = () => {
-    detectChineseVoices();
-  };
-}
-
-// Active online audio instance to stop previous sound when new one is played
+// Single active audio tracker to prevent overlapping/echo
 let activeAudio = null;
+let lastSpokenText = '';
+let lastSpokenTime = 0;
 
-// Online Chinese audio fallback (works 100% on any machine without Chinese voice pack)
-export const playOnlineChinese = (text) => {
-  try {
-    if (activeAudio) {
-      activeAudio.pause();
-      activeAudio.currentTime = 0;
-    }
-
-    const cleanText = text ? text.trim() : '';
-    if (!cleanText) return;
-
-    // Youdao Native Mandarin voice endpoint
-    const url = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanText)}&le=zh`;
-    const audio = new Audio(url);
-    activeAudio = audio;
-
-    audio.onerror = () => {
-      // Fallback to Google Translate TTS if Youdao fails
-      const fallbackUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=zh-CN&client=tw-ob&q=${encodeURIComponent(cleanText)}`;
-      const fallbackAudio = new Audio(fallbackUrl);
-      activeAudio = fallbackAudio;
-      fallbackAudio.play().catch(e => console.warn('Fallback audio error:', e));
-    };
-
-    const playPromise = audio.play();
-    if (playPromise !== undefined) {
-      playPromise.catch(err => {
-        console.warn('Audio playback error (browser autoplay policy):', err);
-      });
-    }
-  } catch (err) {
-    console.error('playOnlineChinese error:', err);
-  }
-};
-
-// Unified Chinese Mandarin Speech: Auto-detects device capability
+/**
+ * Universal Mandarin Speech Player:
+ * - Uses Youdao native audio by default (accurate tones, identical on Windows/Mac/iOS/Android).
+ * - Debounces rapid clicks (prevents playing multiple times).
+ * - Gracefully falls back to Web Speech API or Google TTS if offline.
+ */
 export const speakChinese = (text, rate = 0.9) => {
   if (typeof window === 'undefined') return;
   const cleanText = text ? text.trim() : '';
   if (!cleanText) return;
 
-  // Stop previous speech or online audio
+  const now = Date.now();
+  // Anti-repeat debounce: ignore identical request if triggered within 300ms
+  if (cleanText === lastSpokenText && (now - lastSpokenTime) < 300) {
+    return;
+  }
+  lastSpokenText = cleanText;
+  lastSpokenTime = now;
+
+  // 1. Immediately cut off any previous audio and Web Speech
   if (activeAudio) {
-    activeAudio.pause();
-    activeAudio.currentTime = 0;
+    try {
+      activeAudio.pause();
+      activeAudio.removeAttribute('src');
+      activeAudio = null;
+    } catch (e) {}
   }
 
-  detectChineseVoices();
-  const hasLocalChineseVoice = chineseVoices.length > 0;
-
-  // If the browser has a local Chinese voice installed, try Web Speech API
-  if (window.speechSynthesis && hasLocalChineseVoice) {
+  if (window.speechSynthesis) {
     try {
       window.speechSynthesis.cancel();
-      if (window.speechSynthesis.paused) {
-        window.speechSynthesis.resume();
-      }
-
-      const utterance = new SpeechSynthesisUtterance(cleanText);
-      utterance.lang = 'zh-CN';
-      utterance.rate = rate;
-
-      // Prefer zh-CN voice if available
-      const cnVoice = chineseVoices.find(v => v.lang.toLowerCase().includes('cn')) || chineseVoices[0];
-      if (cnVoice) {
-        utterance.voice = cnVoice;
-      }
-
-      let speechStarted = false;
-      utterance.onstart = () => {
-        speechStarted = true;
-      };
-
-      utterance.onerror = (e) => {
-        console.warn('Web Speech API failed, falling back to online audio:', e);
-        playOnlineChinese(cleanText);
-      };
-
-      // Safety timeout: if browser doesn't start speaking within 500ms (common silent failure on Windows), play online
-      setTimeout(() => {
-        if (!speechStarted) {
-          playOnlineChinese(cleanText);
-        }
-      }, 500);
-
-      window.speechSynthesis.speak(utterance);
-      return;
-    } catch (err) {
-      console.warn('SpeechSynthesis error, falling back:', err);
-    }
+    } catch (e) {}
   }
 
-  // Default fallback: play authentic online native Mandarin audio
-  playOnlineChinese(cleanText);
+  // 2. Play using Youdao Native Mandarin Audio
+  try {
+    const url = `https://dict.youdao.com/dictvoice?audio=${encodeURIComponent(cleanText)}&le=zh`;
+    const audio = new Audio(url);
+    activeAudio = audio;
+
+    let hasStarted = false;
+    audio.onplay = () => {
+      hasStarted = true;
+    };
+
+    // If online audio fails (e.g. offline mode), fallback to Web Speech API
+    audio.onerror = () => {
+      if (hasStarted) return;
+      fallbackWebSpeech(cleanText, rate);
+    };
+
+    const playPromise = audio.play();
+    if (playPromise !== undefined) {
+      playPromise.catch((err) => {
+        // If autoplay was blocked by browser policy, try Web Speech API
+        console.warn('Audio play prevented by browser, trying Web Speech:', err);
+        fallbackWebSpeech(cleanText, rate);
+      });
+    }
+  } catch (err) {
+    fallbackWebSpeech(cleanText, rate);
+  }
 };
+
+function fallbackWebSpeech(text, rate = 0.9) {
+  if (typeof window === 'undefined' || !window.speechSynthesis) return;
+
+  try {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'zh-CN';
+    utterance.rate = rate;
+
+    const voices = window.speechSynthesis.getVoices() || [];
+    const zhVoice = voices.find(v => {
+      const l = (v.lang || '').toLowerCase();
+      return l.includes('zh') || l.includes('cmn');
+    });
+
+    if (zhVoice) {
+      utterance.voice = zhVoice;
+    }
+
+    utterance.onerror = () => {
+      // Last-resort fallback to Google TTS
+      try {
+        const fallbackUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=zh-CN&client=tw-ob&q=${encodeURIComponent(text)}`;
+        const gAudio = new Audio(fallbackUrl);
+        activeAudio = gAudio;
+        gAudio.play().catch(console.warn);
+      } catch (e) {}
+    };
+
+    window.speechSynthesis.speak(utterance);
+  } catch (e) {
+    console.warn('Fallback WebSpeech error:', e);
+  }
+}
