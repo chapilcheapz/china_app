@@ -48,9 +48,9 @@ export default function DictionaryView({
   }, [filteredWords, pageSize]);
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-6">
+    <div className="max-w-5xl mx-auto px-3 py-3 sm:px-4 sm:py-6">
       {/* Search Header */}
-      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 shadow-xs mb-6">
+      <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-4 sm:p-6 shadow-xs mb-4 sm:mb-6">
         <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white mb-1">
           Tra Cứu Từ Vựng HSK (5.000 từ)
         </h2>

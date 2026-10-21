@@ -193,12 +193,12 @@ export default function FlashcardView({
   const progressPercent = Math.round((learnedCount / totalCount) * 100);
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-6">
+    <div className="max-w-3xl mx-auto px-3 py-3 sm:px-4 sm:py-6">
       {/* Level Progress Header */}
-      <div className="flex flex-wrap items-center justify-between gap-4 mb-6 bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs">
+      <div className="flex flex-wrap items-center justify-between gap-3 mb-3 sm:mb-6 bg-white dark:bg-slate-900 p-3.5 sm:p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs">
         <div>
           <div className="flex items-center gap-2">
-            <span className="font-extrabold text-lg text-slate-900 dark:text-white">
+            <span className="font-extrabold text-base sm:text-lg text-slate-900 dark:text-white">
               Cấp độ {selectedLevel}
             </span>
             <span className="text-xs px-2.5 py-0.5 rounded-full bg-red-100 dark:bg-red-950/60 text-red-600 dark:text-red-400 font-bold">
@@ -211,7 +211,7 @@ export default function FlashcardView({
         </div>
 
         {/* Filter Pills */}
-        <div className="flex items-center gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-xl text-xs font-semibold">
+        <div className="flex items-center gap-1 sm:gap-1.5 bg-slate-100 dark:bg-slate-800 p-1 rounded-xl text-xs font-semibold overflow-x-auto max-w-full">
           {[
             { id: 'all', label: 'Tất cả' },
             { id: 'unlearned', label: 'Chưa thuộc' },
@@ -221,7 +221,7 @@ export default function FlashcardView({
             <button
               key={tab.id}
               onClick={() => setFilterMode(tab.id)}
-              className={`px-2.5 py-1.5 rounded-lg transition-colors ${
+              className={`px-2.5 py-1.5 rounded-lg whitespace-nowrap transition-colors ${
                 filterMode === tab.id
                   ? 'bg-white dark:bg-slate-900 text-slate-900 dark:text-white shadow-xs'
                   : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
@@ -234,7 +234,7 @@ export default function FlashcardView({
       </div>
 
       {/* Progress Bar */}
-      <div className="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full overflow-hidden mb-6">
+      <div className="w-full bg-slate-200 dark:bg-slate-800 h-2 rounded-full overflow-hidden mb-3 sm:mb-6">
         <div 
           className="bg-gradient-to-r from-red-600 to-amber-500 h-full transition-all duration-300"
           style={{ width: `${progressPercent}%` }}
@@ -242,12 +242,12 @@ export default function FlashcardView({
       </div>
 
       {/* Card Counter & Controls Bar */}
-      <div className="flex items-center justify-between text-sm mb-4">
+      <div className="flex items-center justify-between text-xs sm:text-sm mb-3 sm:mb-4">
         <div className="font-bold text-slate-500 dark:text-slate-400">
           Thẻ {currentIndex + 1} / {displayWords.length}
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2">
           {/* Toggle Pinyin hint button */}
           <button
             onClick={() => setShowPinyinHint(!showPinyinHint)}
@@ -262,7 +262,7 @@ export default function FlashcardView({
           <button
             onClick={toggleShuffle}
             title={shuffledIndices ? 'Tắt chế độ trộn ngẫu nhiên' : 'Trộn thẻ ngẫu nhiên'}
-            className={`p-2 rounded-lg text-xs font-medium transition-colors ${
+            className={`p-1.5 sm:p-2 rounded-lg text-xs font-medium transition-colors ${
               shuffledIndices
                 ? 'bg-amber-100 dark:bg-amber-950/60 text-amber-600 dark:text-amber-400'
                 : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-700'
@@ -278,7 +278,7 @@ export default function FlashcardView({
               sfx.playSuccess();
             }}
             title={isAutoPlay ? 'Tạm dừng lật thẻ' : 'Tự động lật thẻ'}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
+            className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg text-xs font-bold transition-all ${
               isAutoPlay
                 ? 'bg-red-600 text-white animate-pulse'
                 : 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'
@@ -292,7 +292,7 @@ export default function FlashcardView({
 
       {/* 3D Flip Card Container */}
       <div 
-        className="w-full h-80 sm:h-96 perspective-1000 cursor-pointer select-none"
+        className="w-full h-72 sm:h-88 md:h-96 perspective-1000 cursor-pointer select-none"
         onClick={handleFlip}
       >
         <div 
@@ -301,7 +301,7 @@ export default function FlashcardView({
           }`}
         >
           {/* FRONT OF CARD */}
-          <div className="absolute inset-0 w-full h-full bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-200 dark:border-slate-800 p-6 flex flex-col justify-between items-center backface-hidden shadow-xl hover:border-red-400 dark:hover:border-red-600 transition-colors">
+          <div className="absolute inset-0 w-full h-full bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-200 dark:border-slate-800 p-4 sm:p-6 flex flex-col justify-between items-center backface-hidden shadow-xl hover:border-red-400 dark:hover:border-red-600 transition-colors">
             {/* Top Card Bar */}
             <div className="w-full flex items-center justify-between" onClick={e => e.stopPropagation()}>
               <span className="text-xs font-bold tracking-wider px-2.5 py-1 rounded-md bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 uppercase">
@@ -315,7 +315,7 @@ export default function FlashcardView({
                     onToggleStar(currentWord.id);
                     sfx.playSuccess();
                   }}
-                  className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-400 hover:text-amber-500 transition-colors"
+                  className="p-1.5 sm:p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-400 hover:text-amber-500 transition-colors"
                 >
                   <Star className={`w-5 h-5 ${isStarred ? 'fill-amber-400 text-amber-400' : ''}`} />
                 </button>
@@ -326,7 +326,7 @@ export default function FlashcardView({
                     e.stopPropagation();
                     speakChinese(currentWord.word);
                   }}
-                  className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 hover:text-red-600 transition-colors"
+                  className="p-1.5 sm:p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-500 hover:text-red-600 transition-colors"
                   title="Phát âm tiếng Trung"
                 >
                   <Volume2 className="w-5 h-5 text-red-600 dark:text-red-400" />
@@ -336,12 +336,12 @@ export default function FlashcardView({
 
             {/* Center Content */}
             <div className="flex flex-col items-center justify-center my-auto">
-              <h2 className="text-6xl sm:text-7xl font-bold font-chinese tracking-wide text-slate-900 dark:text-white hover:scale-105 transition-transform duration-200">
+              <h2 className="text-5xl sm:text-7xl font-bold font-chinese tracking-wide text-slate-900 dark:text-white hover:scale-105 transition-transform duration-200">
                 {currentWord.word}
               </h2>
 
               {showPinyinHint && currentWord.pinyin && (
-                <div className="mt-3 text-xl font-medium text-red-600 dark:text-red-400 tracking-wider">
+                <div className="mt-2 sm:mt-3 text-lg sm:text-xl font-medium text-red-600 dark:text-red-400 tracking-wider">
                   {currentWord.pinyin}
                 </div>
               )}
@@ -356,7 +356,7 @@ export default function FlashcardView({
             {/* Bottom Card Bar */}
             <div className="w-full flex items-center justify-between text-xs text-slate-400">
               <span className="flex items-center gap-1">
-                <RotateCw className="w-3.5 h-3.5" /> Chạm vào thẻ hoặc nhấn Phím Cách (Space) để lật
+                <RotateCw className="w-3.5 h-3.5" /> Chạm hoặc phím Space để lật
               </span>
               {isLearned && (
                 <span className="flex items-center gap-1 text-emerald-600 dark:text-emerald-400 font-bold">
@@ -367,14 +367,14 @@ export default function FlashcardView({
           </div>
 
           {/* BACK OF CARD */}
-          <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-white to-red-50/30 dark:from-slate-900 dark:to-red-950/20 rounded-3xl border-2 border-red-200 dark:border-red-900/60 p-6 flex flex-col justify-between backface-hidden rotate-y-180 shadow-xl overflow-y-auto">
+          <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-white to-red-50/30 dark:from-slate-900 dark:to-red-950/20 rounded-3xl border-2 border-red-200 dark:border-red-900/60 p-4 sm:p-6 flex flex-col justify-between backface-hidden rotate-y-180 shadow-xl overflow-y-auto">
             {/* Top Back Bar */}
             <div className="w-full flex items-center justify-between" onClick={e => e.stopPropagation()}>
               <div className="flex items-center gap-2">
-                <span className="text-2xl font-bold font-chinese text-slate-900 dark:text-white">
+                <span className="text-xl sm:text-2xl font-bold font-chinese text-slate-900 dark:text-white">
                   {currentWord.word}
                 </span>
-                <span className="text-base font-semibold text-red-600 dark:text-red-400">
+                <span className="text-sm sm:text-base font-semibold text-red-600 dark:text-red-400">
                   {currentWord.pinyin}
                 </span>
               </div>
@@ -395,11 +395,11 @@ export default function FlashcardView({
 
             {/* Center Meaning Content */}
             <div className="my-auto py-2">
-              <div className="mb-4">
-                <div className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">
+              <div className="mb-3 sm:mb-4">
+                <div className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-0.5 sm:mb-1">
                   Ý nghĩa tiếng Việt
                 </div>
-                <div className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white">
+                <div className="text-lg sm:text-2xl font-bold text-slate-900 dark:text-white">
                   {currentWord.meaning}
                 </div>
               </div>
@@ -407,11 +407,11 @@ export default function FlashcardView({
               {/* Example sentence */}
               {currentWord.example && (
                 <div 
-                  className="bg-white/80 dark:bg-slate-800/80 p-3.5 rounded-xl border border-slate-200/80 dark:border-slate-700/60 mt-2"
+                  className="bg-white/80 dark:bg-slate-800/80 p-3 sm:p-3.5 rounded-xl border border-slate-200/80 dark:border-slate-700/60 mt-2"
                   onClick={e => e.stopPropagation()}
                 >
                   <div className="flex items-start justify-between gap-2">
-                    <p className="text-base sm:text-lg font-chinese font-semibold text-slate-800 dark:text-slate-100">
+                    <p className="text-sm sm:text-lg font-chinese font-semibold text-slate-800 dark:text-slate-100">
                       {currentWord.example}
                     </p>
                     <button
@@ -426,7 +426,7 @@ export default function FlashcardView({
                     </button>
                   </div>
                   {currentWord.example_trans && (
-                    <p className="text-sm text-slate-600 dark:text-slate-300 mt-1 italic">
+                    <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 mt-1 italic">
                       {currentWord.example_trans}
                     </p>
                   )}
@@ -449,7 +449,7 @@ export default function FlashcardView({
                 }`}
               >
                 <CheckCircle2 className="w-4 h-4" />
-                {isLearned ? 'Đã thuộc (Bỏ đánh dấu)' : 'Đánh dấu đã thuộc'}
+                {isLearned ? 'Đã thuộc (Bỏ)' : 'Đánh dấu đã thuộc'}
               </button>
 
               <button
@@ -464,40 +464,40 @@ export default function FlashcardView({
       </div>
 
       {/* Main Navigation Controls */}
-      <div className="flex items-center justify-between gap-4 mt-6">
+      <div className="flex items-center justify-between gap-2.5 sm:gap-4 mt-4 sm:mt-6">
         <button
           onClick={handlePrev}
-          className="flex-1 flex items-center justify-center gap-2 py-3 px-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl font-bold text-sm text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-800 shadow-xs active:scale-98 transition-all"
+          className="flex-1 flex items-center justify-center gap-1 sm:gap-2 py-2.5 sm:py-3 px-2 sm:px-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl sm:rounded-2xl font-bold text-xs sm:text-sm text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-800 shadow-xs active:scale-98 transition-all"
         >
-          <ChevronLeft className="w-5 h-5" />
-          <span className="hidden sm:inline">Từ trước (←)</span>
+          <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
+          <span>Trước</span>
         </button>
 
         <button
           onClick={handleFlip}
-          className="flex-1 py-3 px-4 bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-700 hover:to-rose-700 text-white rounded-2xl font-bold text-sm shadow-md shadow-red-500/20 active:scale-98 transition-all"
+          className="flex-1 py-2.5 sm:py-3 px-2 sm:px-4 bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-700 hover:to-rose-700 text-white rounded-xl sm:rounded-2xl font-bold text-xs sm:text-sm shadow-md shadow-red-500/20 active:scale-98 transition-all"
         >
-          Lật thẻ (Space)
+          Lật thẻ
         </button>
 
         <button
           onClick={handleNext}
-          className="flex-1 flex items-center justify-center gap-2 py-3 px-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl font-bold text-sm text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-800 shadow-xs active:scale-98 transition-all"
+          className="flex-1 flex items-center justify-center gap-1 sm:gap-2 py-2.5 sm:py-3 px-2 sm:px-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl sm:rounded-2xl font-bold text-xs sm:text-sm text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-800 shadow-xs active:scale-98 transition-all"
         >
-          <span className="hidden sm:inline">Từ sau (→)</span>
-          <ChevronRight className="w-5 h-5" />
+          <span>Sau</span>
+          <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
         </button>
       </div>
 
       {/* Spaced Repetition Bar */}
-      <div className="grid grid-cols-2 gap-3 mt-4">
+      <div className="grid grid-cols-2 gap-2.5 sm:gap-3 mt-3 sm:mt-4">
         <button
           onClick={() => {
             if (isLearned) onToggleLearned(currentWord.id);
             sfx.playTone(280, 'sine', 0.1);
             handleNext();
           }}
-          className="py-3.5 px-5 rounded-2xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-sm sm:text-base flex items-center justify-center gap-2 transition-all active:scale-98"
+          className="py-2.5 sm:py-3.5 px-3 sm:px-5 rounded-xl sm:rounded-2xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs sm:text-base flex items-center justify-center gap-1.5 sm:gap-2 transition-all active:scale-98"
         >
           <RotateCcw className="w-4 h-4 text-slate-500 dark:text-slate-400" />
           <span>Cần ôn lại</span>
@@ -509,7 +509,7 @@ export default function FlashcardView({
             sfx.playSuccess();
             handleNext();
           }}
-          className="py-3.5 px-5 rounded-2xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-sm sm:text-base flex items-center justify-center gap-2 transition-all active:scale-98"
+          className="py-2.5 sm:py-3.5 px-3 sm:px-5 rounded-xl sm:rounded-2xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-800 dark:text-slate-200 font-bold text-xs sm:text-base flex items-center justify-center gap-1.5 sm:gap-2 transition-all active:scale-98"
         >
           <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
           <span>Đã thuộc làu</span>

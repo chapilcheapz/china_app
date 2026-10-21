@@ -193,43 +193,43 @@ export default function TypingPracticeView({
   const userChars = userInput.split('');
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-6">
+    <div className="max-w-2xl mx-auto px-3 py-3 sm:px-4 sm:py-6">
       {/* HUD Header */}
-      <div className="flex items-center justify-between gap-4 mb-6 bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs">
+      <div className="flex items-center justify-between gap-3 mb-4 sm:mb-6 bg-white dark:bg-slate-900 p-3.5 sm:p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs">
         <div>
-          <span className="font-extrabold text-sm text-slate-900 dark:text-white">
+          <span className="font-extrabold text-xs sm:text-sm text-slate-900 dark:text-white">
             Luyện gõ Hán tự {selectedLevel}
           </span>
-          <div className="text-xs text-slate-400">
+          <div className="text-[11px] sm:text-xs text-slate-400">
             Từ {currentIndex + 1} / {words.length} • Đã gõ: {completedCount}
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           {streak > 1 && (
-            <div className="flex items-center gap-1 px-3 py-1 rounded-full bg-amber-500/15 text-amber-500 font-black text-xs animate-bounce">
-              <Flame className="w-4 h-4 fill-amber-500" />
-              <span>Chuỗi đúng x{streak}</span>
+            <div className="flex items-center gap-1 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full bg-amber-500/15 text-amber-500 font-black text-xs animate-bounce">
+              <Flame className="w-3.5 h-3.5 sm:w-4 sm:h-4 fill-amber-500" />
+              <span>x{streak}</span>
             </div>
           )}
 
           <button
             onClick={() => speakChinese(currentWord.word)}
-            className="p-2 rounded-xl bg-red-50 dark:bg-red-950/60 text-red-600 dark:text-red-400 hover:bg-red-100 transition-colors"
+            className="p-1.5 sm:p-2 rounded-xl bg-red-50 dark:bg-red-950/60 text-red-600 dark:text-red-400 hover:bg-red-100 transition-colors"
             title="Nghe phát âm"
           >
-            <Volume2 className="w-5 h-5" />
+            <Volume2 className="w-4 h-4 sm:w-5 sm:h-5" />
           </button>
         </div>
       </div>
 
       {/* Target Word Prompt Box */}
-      <div className="bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-200 dark:border-slate-800 p-6 sm:p-8 text-center shadow-md mb-6">
+      <div className="bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-200 dark:border-slate-800 p-4 sm:p-8 text-center shadow-md mb-4 sm:mb-6">
         <div className="text-sm font-semibold text-red-600 dark:text-red-400 tracking-wider mb-1">
           {currentWord.pinyin}
         </div>
 
-        <div className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mb-2">
+        <div className="text-xl sm:text-3xl font-extrabold text-slate-900 dark:text-white mb-2">
           {currentWord.meaning}
         </div>
 
@@ -240,7 +240,7 @@ export default function TypingPracticeView({
         )}
 
         {/* Character Slots Visualizer */}
-        <div className="flex items-center justify-center gap-3 my-6">
+        <div className="flex items-center justify-center gap-2 sm:gap-3 my-4 sm:my-6">
           {targetChars.map((targetChar, idx) => {
             const userChar = userChars[idx];
             let borderCol = 'border-slate-300 dark:border-slate-700 text-slate-400';
@@ -259,7 +259,7 @@ export default function TypingPracticeView({
             return (
               <div
                 key={idx}
-                className={`w-16 h-20 sm:w-20 sm:h-24 rounded-2xl border-2 ${borderCol} ${bgCol} flex flex-col items-center justify-center font-chinese text-4xl sm:text-5xl font-bold transition-all shadow-xs`}
+                className={`w-14 h-18 sm:w-20 sm:h-24 rounded-xl sm:rounded-2xl border-2 ${borderCol} ${bgCol} flex flex-col items-center justify-center font-chinese text-3xl sm:text-5xl font-bold transition-all shadow-xs`}
               >
                 {userChar ? (
                   <span>{userChar}</span>
@@ -316,19 +316,19 @@ export default function TypingPracticeView({
           </button>
         </div>
 
-        <div className="flex flex-wrap gap-2 justify-center">
+        <div className="flex flex-wrap gap-1.5 sm:gap-2 justify-center">
           {virtualKeys.map((char, idx) => (
             <button
               key={idx}
               onClick={() => handleVirtualKeyClick(char)}
-              className="w-12 h-12 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-red-50 dark:hover:bg-red-950/60 hover:text-red-600 dark:hover:text-red-400 font-chinese font-bold text-2xl border border-slate-200 dark:border-slate-700 shadow-xs active:scale-95 transition-all"
+              className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-red-50 dark:hover:bg-red-950/60 hover:text-red-600 dark:hover:text-red-400 font-chinese font-bold text-xl sm:text-2xl border border-slate-200 dark:border-slate-700 shadow-xs active:scale-95 transition-all"
             >
               {char}
             </button>
           ))}
           <button
             onClick={() => setUserInput(userInput.slice(0, -1))}
-            className="px-3 h-12 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 text-xs font-bold border border-slate-200 dark:border-slate-700 active:scale-95 transition-all"
+            className="px-2.5 sm:px-3 h-10 sm:h-12 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 text-xs font-bold border border-slate-200 dark:border-slate-700 active:scale-95 transition-all"
           >
             ⌫ Xóa
           </button>

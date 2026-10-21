@@ -198,10 +198,10 @@ export default function QuizView({
 
   if (!isStarted || isFinished) {
     return (
-      <div className="max-w-3xl mx-auto px-4 py-8">
+      <div className="max-w-3xl mx-auto px-3 py-4 sm:px-4 sm:py-8">
         {!isFinished ? (
           /* Start Screen */
-          <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-6 sm:p-8 shadow-sm">
+          <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-5 sm:p-8 shadow-sm">
             <div className="text-center mb-8">
               <div className="inline-flex p-3 rounded-2xl bg-red-100 dark:bg-red-950/60 text-red-600 dark:text-red-400 mb-3">
                 <Trophy className="w-8 h-8" />
@@ -399,32 +399,32 @@ export default function QuizView({
 
   /* Gameplay Screen */
   return (
-    <div className="max-w-2xl mx-auto px-4 py-6">
+    <div className="max-w-2xl mx-auto px-3 py-3 sm:px-4 sm:py-6">
       {/* HUD Header */}
-      <div className="flex items-center justify-between gap-4 mb-4 bg-white dark:bg-slate-900 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs">
+      <div className="flex items-center justify-between gap-2 sm:gap-4 mb-3 sm:mb-4 bg-white dark:bg-slate-900 p-3 sm:p-4 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs">
         {/* Question Counter */}
-        <div className="font-extrabold text-sm text-slate-600 dark:text-slate-300">
+        <div className="font-extrabold text-xs sm:text-sm text-slate-600 dark:text-slate-300">
           Câu {currentQuestionIndex + 1} / {questions.length}
         </div>
 
         {/* Streak & Score */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           {streak > 1 && (
-            <div className="flex items-center gap-1 px-2.5 py-1 rounded-full bg-amber-500/10 text-amber-500 font-extrabold text-xs animate-bounce">
-              <Flame className="w-4 h-4 fill-amber-500" />
-              <span>Chuỗi đúng x{streak}</span>
+            <div className="flex items-center gap-1 px-2 py-0.5 sm:px-2.5 sm:py-1 rounded-full bg-amber-500/10 text-amber-500 font-extrabold text-[11px] sm:text-xs animate-bounce">
+              <Flame className="w-3.5 h-3.5 sm:w-4 sm:h-4 fill-amber-500" />
+              <span>x{streak}</span>
             </div>
           )}
 
-          <div className="text-sm font-extrabold text-red-600 dark:text-red-400">
+          <div className="text-xs sm:text-sm font-extrabold text-red-600 dark:text-red-400">
             {score} điểm
           </div>
         </div>
 
         {/* Timer Bar */}
         {timerEnabled && (
-          <div className="flex items-center gap-1.5 text-xs font-bold text-slate-500">
-            <Timer className={`w-4 h-4 ${timeLeft <= 3 ? 'text-red-500 animate-spin' : ''}`} />
+          <div className="flex items-center gap-1 sm:gap-1.5 text-xs font-bold text-slate-500">
+            <Timer className={`w-3.5 h-3.5 sm:w-4 sm:h-4 ${timeLeft <= 3 ? 'text-red-500 animate-spin' : ''}`} />
             <span className={timeLeft <= 3 ? 'text-red-500 font-black' : ''}>{timeLeft}s</span>
           </div>
         )}
@@ -432,7 +432,7 @@ export default function QuizView({
 
       {/* Timer Line Indicator */}
       {timerEnabled && (
-        <div className="w-full bg-slate-200 dark:bg-slate-800 h-1.5 rounded-full overflow-hidden mb-6">
+        <div className="w-full bg-slate-200 dark:bg-slate-800 h-1.5 rounded-full overflow-hidden mb-3 sm:mb-6">
           <div
             className={`h-full transition-all duration-1000 ${
               timeLeft <= 3 ? 'bg-red-500' : 'bg-red-600'
@@ -443,7 +443,7 @@ export default function QuizView({
       )}
 
       {/* Question Prompt Card */}
-      <div className="bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-200 dark:border-slate-800 p-6 sm:p-8 text-center shadow-md mb-6">
+      <div className="bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-200 dark:border-slate-800 p-4 sm:p-8 text-center shadow-md mb-4 sm:mb-6">
         <span className="text-xs font-bold uppercase tracking-wider text-slate-400 mb-2 block">
           {mode === 'hanzi_to_meaning' && 'Chọn nghĩa tiếng Việt chính xác:'}
           {mode === 'meaning_to_hanzi' && 'Chọn chữ Hán tương ứng:'}
@@ -453,12 +453,12 @@ export default function QuizView({
 
         {/* Question Display */}
         {mode === 'hanzi_to_meaning' && (
-          <div className="my-3">
-            <div className="text-6xl sm:text-7xl font-bold font-chinese text-slate-900 dark:text-white">
+          <div className="my-2 sm:my-3">
+            <div className="text-5xl sm:text-7xl font-bold font-chinese text-slate-900 dark:text-white">
               {currentQ.word.word}
             </div>
             {currentQ.word.pinyin && (
-              <div className="text-sm font-semibold text-red-600 dark:text-red-400 mt-2">
+              <div className="text-xs sm:text-sm font-semibold text-red-600 dark:text-red-400 mt-1.5 sm:mt-2">
                 {currentQ.word.pinyin}
               </div>
             )}
@@ -466,32 +466,32 @@ export default function QuizView({
         )}
 
         {mode === 'meaning_to_hanzi' && (
-          <div className="my-4">
-            <div className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">
+          <div className="my-3 sm:my-4">
+            <div className="text-xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">
               "{currentQ.word.meaning}"
             </div>
           </div>
         )}
 
         {mode === 'pinyin_match' && (
-          <div className="my-3">
-            <div className="text-6xl sm:text-7xl font-bold font-chinese text-slate-900 dark:text-white">
+          <div className="my-2 sm:my-3">
+            <div className="text-5xl sm:text-7xl font-bold font-chinese text-slate-900 dark:text-white">
               {currentQ.word.word}
             </div>
-            <div className="text-sm text-slate-400 mt-2">
+            <div className="text-xs sm:text-sm text-slate-400 mt-1.5 sm:mt-2">
               (Nghĩa: {currentQ.word.meaning})
             </div>
           </div>
         )}
 
         {mode === 'listening' && (
-          <div className="my-4 flex flex-col items-center">
+          <div className="my-3 sm:my-4 flex flex-col items-center">
             <button
               onClick={() => speakChinese(currentQ.word.word)}
-              className="w-20 h-20 rounded-full bg-red-600 hover:bg-red-700 text-white flex items-center justify-center shadow-lg shadow-red-500/30 active:scale-95 transition-all mb-2"
+              className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-red-600 hover:bg-red-700 text-white flex items-center justify-center shadow-lg shadow-red-500/30 active:scale-95 transition-all mb-2"
               title="Phát lại âm thanh"
             >
-              <Volume2 className="w-10 h-10" />
+              <Volume2 className="w-8 h-8 sm:w-10 sm:h-10" />
             </button>
             <span className="text-xs font-bold text-slate-500">Chạm để nghe lại âm thanh</span>
           </div>
@@ -499,7 +499,7 @@ export default function QuizView({
       </div>
 
       {/* Options Grid (4 Choices) */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-3 mb-4 sm:mb-6">
         {currentQ.options.map((option, idx) => {
           const isCorrect = option.id === currentQ.word.id;
           const isSelected = selectedAnswer && selectedAnswer.id === option.id;
@@ -530,7 +530,7 @@ export default function QuizView({
               key={idx}
               onClick={() => handleSelectAnswer(option)}
               disabled={isAnswerChecked}
-              className={`p-4 rounded-2xl border-2 font-bold text-left transition-all active:scale-98 flex items-center justify-between ${btnClass}`}
+              className={`p-3.5 sm:p-4 rounded-xl sm:rounded-2xl border-2 font-bold text-left transition-all active:scale-98 flex items-center justify-between ${btnClass}`}
             >
               <div className="flex items-center gap-3">
                 <span className="w-7 h-7 rounded-lg bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-xs font-black text-slate-500">

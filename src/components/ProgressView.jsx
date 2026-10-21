@@ -105,30 +105,30 @@ export default function ProgressView({
   const overallPercent = Math.round((totalLearnedCount / totalWordsCount) * 100);
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-6">
+    <div className="max-w-5xl mx-auto px-3 py-3 sm:px-4 sm:py-6">
       {/* View Switcher Tabs */}
-      <div className="flex items-center justify-between gap-4 mb-6">
-        <div className="flex items-center gap-2 bg-white dark:bg-slate-900 p-1 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs">
+      <div className="flex flex-wrap items-center justify-between gap-3 mb-4 sm:mb-6">
+        <div className="flex items-center gap-1.5 sm:gap-2 bg-white dark:bg-slate-900 p-1 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-xs">
           <button
             onClick={() => setActiveTab('overview')}
-            className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+            className={`px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
               activeTab === 'overview'
                 ? 'bg-red-600 text-white shadow-xs'
                 : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
             }`}
           >
-            Kết quả học tập
+            Kết quả học
           </button>
           <button
             onClick={() => setActiveTab('starred')}
-            className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
+            className={`flex items-center gap-1 sm:gap-1.5 px-3 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
               activeTab === 'starred'
                 ? 'bg-red-600 text-white shadow-xs'
                 : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white'
             }`}
           >
-            <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
-            <span>Sổ tay yêu thích ({starredWordsList.length})</span>
+            <Star className="w-3.5 h-3.5 sm:w-4 sm:h-4 fill-amber-400 text-amber-400" />
+            <span>Sổ tay ({starredWordsList.length})</span>
           </button>
         </div>
 
@@ -165,39 +165,39 @@ export default function ProgressView({
       {activeTab === 'overview' ? (
         <>
           {/* Top Big Metric Cards */}
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-            <div className="bg-white dark:bg-slate-900 p-5 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xs">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 sm:gap-4 mb-6 sm:mb-8">
+            <div className="bg-white dark:bg-slate-900 p-4 sm:p-5 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xs">
               <div className="flex items-center justify-between text-slate-400 mb-2">
                 <span className="text-xs font-bold uppercase tracking-wider">Từ đã thuộc</span>
                 <CheckCircle2 className="w-5 h-5 text-emerald-500" />
               </div>
-              <div className="text-3xl font-extrabold text-slate-900 dark:text-white">
+              <div className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">
                 {totalLearnedCount}
               </div>
-              <div className="text-xs text-slate-500 mt-1">
-                {overallPercent}% trên tổng 5.002 từ HSK
+              <div className="text-[11px] sm:text-xs text-slate-500 mt-1">
+                {overallPercent}% trên 5.002 từ HSK
               </div>
             </div>
 
-            <div className="bg-white dark:bg-slate-900 p-5 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xs">
+            <div className="bg-white dark:bg-slate-900 p-4 sm:p-5 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xs">
               <div className="flex items-center justify-between text-slate-400 mb-2">
                 <span className="text-xs font-bold uppercase tracking-wider">Từ đã lưu ⭐</span>
                 <Star className="w-5 h-5 text-amber-400 fill-amber-400" />
               </div>
-              <div className="text-3xl font-extrabold text-slate-900 dark:text-white">
+              <div className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">
                 {starredIds.size}
               </div>
-              <div className="text-xs text-slate-500 mt-1">
+              <div className="text-[11px] sm:text-xs text-slate-500 mt-1">
                 Lưu vào sổ tay cá nhân
               </div>
             </div>
 
-            <div className="bg-white dark:bg-slate-900 p-5 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xs">
+            <div className="bg-white dark:bg-slate-900 p-4 sm:p-5 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xs">
               <div className="flex items-center justify-between text-slate-400 mb-2">
                 <span className="text-xs font-bold uppercase tracking-wider">Lượt trắc nghiệm</span>
                 <Gamepad2 className="w-5 h-5 text-purple-500" />
               </div>
-              <div className="text-3xl font-extrabold text-slate-900 dark:text-white">
+              <div className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">
                 {stats.quizTotalPlayed || 0}
               </div>
               <div className="text-xs text-slate-500 mt-1">

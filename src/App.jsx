@@ -122,7 +122,7 @@ export default function App() {
       />
 
       {/* Main Content Area */}
-      <main className="flex-1 max-w-7xl w-full mx-auto pb-16">
+      <main className="flex-1 max-w-7xl w-full mx-auto pb-24 sm:pb-16">
         {isLoading && allWords.length === 0 ? (
           <div className="flex flex-col items-center justify-center min-h-[60vh] gap-3">
             <div className="w-12 h-12 border-4 border-red-600 border-t-transparent rounded-full animate-spin" />
@@ -191,8 +191,8 @@ export default function App() {
         )}
       </main>
 
-      {/* Footer */}
-      <footer className="border-t border-slate-200 dark:border-slate-800 py-6 text-center text-xs text-slate-400">
+      {/* Footer (Desktop only) */}
+      <footer className="hidden md:block border-t border-slate-200 dark:border-slate-800 py-6 text-center text-xs text-slate-400">
         <p>ChinaApp • Đồng hành cùng bạn chinh phục tiếng Trung mỗi ngày • 5.002 từ vựng chuẩn HSK</p>
       </footer>
     </div>
