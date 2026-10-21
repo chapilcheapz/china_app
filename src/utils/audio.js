@@ -1,4 +1,4 @@
-// Audio utilities: Ultra-reliable Mandarin Speech (Google TTS & Baidu TTS primary, Web Speech offline fallback) + Web Audio SFX
+// Audio utilities: Ultra-reliable Mandarin Speech (Google TTS Proxy/Direct + Baidu TTS + Web Speech fallback) + Web Audio SFX
 
 class SoundEffects {
   constructor() {
@@ -107,9 +107,9 @@ export function cleanChineseTextForSpeech(raw) {
 
 /**
  * Universal Mandarin Speech Player:
- * - 100% covers all words, multi-character idioms (成语), and full sentences.
- * - Multi-tiered fallback: Google TTS -> Baidu TTS -> Youdao -> Web Speech API (offline).
- * - Debounces rapid clicks to prevent multiple simultaneous reads.
+ * - 100% covers all words (including 本, thành ngữ, câu ví dụ).
+ * - Multi-tiered fallback: Vite Proxy -> Google TTS (no-referrer) -> Baidu TTS -> Web Speech API (offline).
+ * - Debounces rapid clicks to prevent duplicate speech.
  */
 export const speakChinese = (text, rate = 0.9) => {
   if (typeof window === 'undefined') return;
@@ -139,15 +139,18 @@ export const speakChinese = (text, rate = 0.9) => {
     } catch (e) {}
   }
 
-  // 2. Play using multi-tier online TTS cascade
+  // 2. Build multi-tier online TTS cascade
   const encoded = encodeURIComponent(cleanText);
+  const isLocal = typeof window !== 'undefined' && 
+    (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname.startsWith('192.168.'));
+
   const sources = [
-    // Tier 1: Google Translate Mandarin TTS (covers all words, idioms, sentences, punctuation)
+    // Tier 1 (Dev): Local Vite proxy to bypass all browser referrer/CORS restrictions
+    ...(isLocal ? [`/api/tts?ie=UTF-8&tl=zh-CN&client=tw-ob&q=${encoded}`] : []),
+    // Tier 2 (Prod): Direct Google Translate Mandarin TTS (allowed via <meta name="referrer" content="no-referrer">)
     `https://translate.google.com/translate_tts?ie=UTF-8&tl=zh-CN&client=tw-ob&q=${encoded}`,
-    // Tier 2: Baidu Fanyi Mandarin TTS (China's leading TTS engine)
+    // Tier 3: Baidu Fanyi Mandarin TTS
     `https://fanyi.baidu.com/gettts?lan=zh&text=${encoded}&spd=5&source=web`,
-    // Tier 3: Youdao Dictionary Voice
-    `https://dict.youdao.com/dictvoice?audio=${encoded}&le=zh`
   ];
 
   let currentSourceIndex = 0;
@@ -176,7 +179,7 @@ export const speakChinese = (text, rate = 0.9) => {
     const playPromise = audio.play();
     if (playPromise !== undefined) {
       playPromise.catch((err) => {
-        console.warn('Audio playback error, trying next source:', err);
+        console.warn('Audio play restricted, trying next source:', err);
         tryNextAudioSource();
       });
     }
